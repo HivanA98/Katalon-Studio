@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Soul Hospital Program 1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7728c366-2563-4dec-bfac-a5d2a11d9ad8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9b75fe91-9791-4cd7-a6aa-27079e69b5ff</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>411cbbb7-c7b0-4b1a-97c2-5f8afeddf6c7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>29c72f10-ee9f-49d2-8463-a72fa090e660</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'John Doe'</defaultValue>
+      <description></description>
+      <id>9b75fe91-9791-4cd7-a6aa-27079e69b5ff</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM'</defaultValue>
+      <description></description>
+      <id>411cbbb7-c7b0-4b1a-97c2-5f8afeddf6c7</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>'Ini Komentar'</defaultValue>
+      <description></description>
+      <id>29c72f10-ee9f-49d2-8463-a72fa090e660</id>
+      <masked>false</masked>
+      <name>Commentar</name>
+   </variable>
+</TestCaseEntity>

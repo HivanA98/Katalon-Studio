@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>02View</name>
+   <tag></tag>
+   <elementGuidId>dc92b271-27d7-44b6-86b5-3a84d0c3b6f5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div/div/div/div[2]/div/div/div/div/div/a/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.Listing__StyledProductListingTitle-jsmmh7-1.cVfZlW.bmsportal-homepage-productlisttitle > div > a > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>fe2b0afa-950e-424d-81f4-8f316c3b7330</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>View all</value>
+      <webElementGuid>a0b4ded2-8999-46f0-b976-6d95c73f00d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;sc-fzpjYC gJohPa bigtix-layout Layout__StyledLayoutTemplate-sc-1ptouf0-0 gSDraJ&quot;]/div[@class=&quot;sc-fzokOt hLgJkJ bigtix-layout__body&quot;]/div[@class=&quot;bigtix-layout__main&quot;]/div[@class=&quot;BodyContent__StyledContent-sc-5p1m8x-0 cWiblK bmsportal-layout-body-content&quot;]/div[@class=&quot;bmsportal-layout-body-content-container&quot;]/div[@class=&quot;bmsportal-layout-body-content-main&quot;]/div[@class=&quot;Landing__StyledLandingPage-sc-1tlgit2-0 kKgREH&quot;]/div[@class=&quot;Listing-jsmmh7-0 gCrZLD&quot;]/div[@class=&quot;Listing__StyledProductListingTitle-jsmmh7-1 cVfZlW bmsportal-homepage-productlisttitle&quot;]/div[1]/a[1]/span[1]</value>
+      <webElementGuid>b2eed5ff-a9ed-43ed-8481-c71caa2695f4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div/div/div/div[2]/div/div/div/div/div/a/span</value>
+      <webElementGuid>3e18ba8a-a24e-4cbb-8263-ef0ef7772495</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Events'])[2]/following::span[1]</value>
+      <webElementGuid>d3ebf6cc-9528-403f-9260-c3b5fd3c7f11</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Online Streaming'])[2]/preceding::span[10]</value>
+      <webElementGuid>085fd971-91f7-4279-86a4-cde8672b7f43</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='View all']/parent::*</value>
+      <webElementGuid>8dc8f1dd-50d7-42fa-9ee9-59253ee7fb87</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div/a/span</value>
+      <webElementGuid>b70c60ba-2d72-425a-870f-f53b0f01a775</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'View all' or . = 'View all')]</value>
+      <webElementGuid>b259c73b-6d22-4a9e-8852-2e38f2e47cad</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

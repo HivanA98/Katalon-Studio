@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Tanggal_15</name>
+   <tag></tag>
+   <elementGuidId>985419fa-2605-4ddc-907f-bb2c88ee67fb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '15' or . = '15')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.css-1dbjc4n.r-1awozwy.r-1vjbqqu.r-1naam9t.r-sdzlij.r-d045u9.r-eqz5dr.r-16y2uox.r-1472mwg.r-1777fci.r-1wyvozj.r-1pn2ns4.r-u8s1d.r-70iriu.r-136ojw6</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div[3]/div[2]/div/div[2]/div/div[3]/div/div/div/div/div[2]/div/div[3]/div/div[2]/div/div/div/div/div/div/div/div/div[3]/div[18]/div/div/div[2]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f2e1f3f4-11dc-4860-ae6f-088cf6e7c3a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-1dbjc4n r-1awozwy r-1vjbqqu r-1naam9t r-sdzlij r-d045u9 r-eqz5dr r-16y2uox r-1472mwg r-1777fci r-1wyvozj r-1pn2ns4 r-u8s1d r-70iriu r-136ojw6</value>
+      <webElementGuid>f7bdb58c-1899-42e2-97a5-c80830a0b35d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>15</value>
+      <webElementGuid>3e002c20-44ac-48cb-b932-a0a1ce68da38</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;__next&quot;]/div[2]/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div/div[2]/div/div[3]/div/div[2]/div/div/div/div/div/div[1]/div/div[1]/div[3]/div[18]/div/div/div[2]</value>
+      <webElementGuid>d259526b-1de4-41b2-a545-24118d0b1b83</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div[3]/div[2]/div/div[2]/div/div[3]/div/div/div/div/div[2]/div/div[3]/div/div[2]/div/div/div/div/div/div/div/div/div[3]/div[18]/div/div/div[2]/div[2]</value>
+      <webElementGuid>f79a5a1f-97ed-4282-805a-aca18c124240</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Today'])[1]/following::div[24]</value>
+      <webElementGuid>8e28eaaf-1ab3-4f37-ad45-15f7b482a641</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sun'])[1]/following::div[153]</value>
+      <webElementGuid>b75c191c-112b-44fc-9b0f-a18c740e69bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Isra Mi', &quot;'&quot;, 'raj')])[1]/preceding::div[149]</value>
+      <webElementGuid>dc7b76f5-8856-4c23-864e-175c58119bef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Collective leave'])[1]/preceding::div[153]</value>
+      <webElementGuid>f7947df3-7d30-4f9f-aa38-ddfbdcea512b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[18]/div/div/div[2]/div[2]</value>
+      <webElementGuid>3a3c3ed6-8402-441c-ae46-de8df3b282fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '15' or . = '15')]</value>
+      <webElementGuid>31357b81-4fc7-47f1-a2a4-818e9644bfa2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

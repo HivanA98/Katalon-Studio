@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>32_BCA_Transfer</name>
+   <tag></tag>
+   <elementGuidId>c3878cf4-b57b-40b0-bfd6-9dd480fa8849</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.css-1dbjc4n.r-1awozwy.r-6koalj.r-18u37iz.r-1wtj0ep.r-ymttw5.r-1w50u8q</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div/div/div[2]/div/div/div[3]/div[2]/div/div/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1b009b55-9dff-4e32-b978-65ddbbe5de61</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-1dbjc4n r-1awozwy r-6koalj r-18u37iz r-1wtj0ep r-ymttw5 r-1w50u8q</value>
+      <webElementGuid>61e61d26-2c9d-4bde-95fb-db0d73b42717</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>BCA Transfer</value>
+      <webElementGuid>5f98f371-4010-43a1-bbd2-2b31dcd15abf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;css-1dbjc4n&quot;]/div[@class=&quot;css-1dbjc4n r-1v5cr82&quot;]/div[@class=&quot;css-1dbjc4n&quot;]/div[@class=&quot;css-1dbjc4n r-18u37iz r-1777fci&quot;]/div[@class=&quot;css-1dbjc4n r-1kfa7lm&quot;]/div[@class=&quot;css-1dbjc4n&quot;]/div[@class=&quot;css-1dbjc4n r-14lw9ot r-1dzdj1l&quot;]/div[@class=&quot;css-1dbjc4n r-1h4fu65&quot;]/div[@class=&quot;css-1dbjc4n r-1udh08x&quot;]/div[@class=&quot;css-1dbjc4n&quot;]/div[@class=&quot;css-1dbjc4n r-1373han r-1i6wzkk r-lrvibr&quot;]/div[@class=&quot;css-1dbjc4n r-1udh08x&quot;]/div[@class=&quot;css-1dbjc4n&quot;]/div[@class=&quot;css-1dbjc4n&quot;]/div[@class=&quot;css-1dbjc4n r-qn3fzs r-16sfdwh r-11g3r6m&quot;]/div[@class=&quot;css-1dbjc4n&quot;]/div[@class=&quot;css-1dbjc4n&quot;]/div[@class=&quot;css-1dbjc4n&quot;]/div[@class=&quot;css-1dbjc4n r-1udh08x&quot;]/div[@class=&quot;css-1dbjc4n&quot;]/div[@class=&quot;css-1dbjc4n r-1loqt21 r-1otgn73 r-1i6wzkk r-lrvibr&quot;]/div[@class=&quot;css-1dbjc4n r-14lw9ot r-h1746q r-1dzdj1l r-rs99b7&quot;]/div[@class=&quot;css-1dbjc4n r-1awozwy r-6koalj r-18u37iz r-1wtj0ep r-ymttw5 r-1w50u8q&quot;]</value>
+      <webElementGuid>25f50bde-9afd-414c-9e60-84b70edb9c58</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div/div/div[2]/div/div/div[3]/div[2]/div/div/div/div/div</value>
+      <webElementGuid>958b1627-3c4f-4463-b98d-a0519fc66d41</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose a destination account'])[1]/following::div[6]</value>
+      <webElementGuid>ae7779de-f9c6-4285-b315-10d15f6c2499</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='You can transfer from any banking channel (Mobile Banking, Internet Banking, SMS Banking, or ATM).'])[1]/following::div[9]</value>
+      <webElementGuid>715784ef-b973-4c0a-86cc-5f539b691bac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mandiri Transfer'])[1]/preceding::div[17]</value>
+      <webElementGuid>f9323583-d467-4c9a-8a98-e02a7902b126</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div[2]/div/div/div[3]/div[2]/div/div/div/div/div</value>
+      <webElementGuid>cc18dee9-f723-4393-849c-65aa617c7311</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'BCA Transfer' or . = 'BCA Transfer')]</value>
+      <webElementGuid>f74af774-d94c-48e3-8d63-58be333e787f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

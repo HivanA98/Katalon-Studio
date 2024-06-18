@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>04Book now</name>
+   <tag></tag>
+   <elementGuidId>47d11d2a-d851-4a8a-a72a-b83978d199f5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and @class = 'sc-AxiKw dfSNQy bigtix-button bigtix-button--primary BookButton__StyledButton-sc-1eagqnf-1 bAtfUb' and (text() = 'Book now' or . = 'Book now')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.BookingContent__AffixedContent-cbgymc-1.ccJVTP > div.BookingContent__StyledBookingContent-cbgymc-0.hHWECX.bmsportal-product-details-bookingcontent > div > #bmsportal-book > button.sc-AxiKw.dfSNQy.bigtix-button.bigtix-button--primary.BookButton__StyledButton-sc-1eagqnf-1.bAtfUb</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>9350726b-7e2e-4083-aeb6-087904d45915</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>bf4e8de7-94d9-4c5d-938a-a90105cd28b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-AxiKw dfSNQy bigtix-button bigtix-button--primary BookButton__StyledButton-sc-1eagqnf-1 bAtfUb</value>
+      <webElementGuid>a2b5f123-c065-4bb0-bacd-a3e1236c39ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Book now</value>
+      <webElementGuid>82245620-e2ee-4e14-be8d-ad8e17869064</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;bmsportal-affixed-container&quot;)/div[@class=&quot;BookingContent__AffixedContent-cbgymc-1 ccJVTP&quot;]/div[@class=&quot;BookingContent__StyledBookingContent-cbgymc-0 hHWECX bmsportal-product-details-bookingcontent&quot;]/div[1]/a[@id=&quot;bmsportal-book&quot;]/button[@class=&quot;sc-AxiKw dfSNQy bigtix-button bigtix-button--primary BookButton__StyledButton-sc-1eagqnf-1 bAtfUb&quot;]</value>
+      <webElementGuid>8a4edcd9-7fd6-48f3-ad83-aa47bda84658</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[4]</value>
+      <webElementGuid>2ca70f6c-ac7b-48ee-9988-b6c55de6c648</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>(//a[@id='bmsportal-book']/button)[2]</value>
+      <webElementGuid>93a9dc1d-eea9-46c8-87c9-11633509783c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Privacy Notice'])[1]/following::button[1]</value>
+      <webElementGuid>16e5dbd9-6022-4997-9dd1-5cdff7c434bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Privacy Policy'])[1]/following::button[1]</value>
+      <webElementGuid>766072a2-dcbb-4589-8c19-63baf1e80378</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Passes Available'])[1]/preceding::button[1]</value>
+      <webElementGuid>6c447d08-de40-48b4-87b6-c46befba4cc6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/a/button</value>
+      <webElementGuid>2cd172a7-b57b-40c9-b669-278be9c39755</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Book now' or . = 'Book now')]</value>
+      <webElementGuid>a907fc3d-51d5-44e1-8d79-794ab116afde</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

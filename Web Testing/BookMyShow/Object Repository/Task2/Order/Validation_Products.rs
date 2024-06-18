@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Validation_Products</name>
+   <tag></tag>
+   <elementGuidId>6683616f-ed3f-446f-9a03-d8073823fd09</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h5.sc-licaXj.hxPtPo</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/section/section/main/div/div[2]/div/h5</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h5</value>
+      <webElementGuid>ee1178a2-3abb-407f-bff3-910ac03dd87f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-licaXj hxPtPo</value>
+      <webElementGuid>398f824f-db96-4400-b40f-b91c8290ff71</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Products</value>
+      <webElementGuid>4f5b46c3-e103-40f2-8da2-df23a5d561b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/section[@class=&quot;ant-layout&quot;]/section[@class=&quot;ant-layout sc-fubCfw jwTLJn&quot;]/main[@class=&quot;ant-layout-content sc-pFZIQ gbgfMs&quot;]/div[@class=&quot;sc-gKsewC jyCpSH&quot;]/div[@class=&quot;sc-gUUzQN yGahl&quot;]/div[@class=&quot;ant-row sc-hJxCPi gyVsHB&quot;]/h5[@class=&quot;sc-licaXj hxPtPo&quot;]</value>
+      <webElementGuid>1779dc37-a991-4bf8-9b8d-ec93c7afacb6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/section/section/main/div/div[2]/div/h5</value>
+      <webElementGuid>2a95674f-f05b-4c5d-9a52-45f3ef5149bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Label'])[1]/following::h5[1]</value>
+      <webElementGuid>53dab48a-e771-4da6-8df6-1427e21dc6f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Place'])[1]/following::h5[1]</value>
+      <webElementGuid>2ee9ac6a-5d61-4695-aac7-fc781e087504</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='[Automation Test] 1 Sep 2023 7:14 AM GA Bundle'])[1]/preceding::h5[1]</value>
+      <webElementGuid>2f2b1af9-a392-45cb-8b22-627b97889509</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Testing'])[1]/preceding::h5[1]</value>
+      <webElementGuid>8e3e1246-75a3-43ef-9f15-bb758561d5e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Products']/parent::*</value>
+      <webElementGuid>49cdccb1-67ac-495e-a273-3fe73ddd8755</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h5</value>
+      <webElementGuid>0be0dd01-b273-4fde-a284-00de070dd6f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h5[(text() = 'Products' or . = 'Products')]</value>
+      <webElementGuid>d6a00265-065e-4b19-93e5-e508c4e2a584</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

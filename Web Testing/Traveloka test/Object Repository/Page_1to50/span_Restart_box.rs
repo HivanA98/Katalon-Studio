@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Restart_box</name>
+   <tag></tag>
+   <elementGuidId>b4e86341-85ee-4b07-b8c6-c5a34d693b4e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '1' or . = '1')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div:nth-of-type(12) > span.box</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='grid']/div[text()='${increment}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>5f10d800-5ab8-4f9a-ae18-87992314cfd3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>box</value>
+      <webElementGuid>cfe07b5d-d87e-47ef-ad47-10bd8a692050</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;grid&quot;)/div[text()='1']</value>
+      <webElementGuid>f3102e5c-40c7-45ac-84ba-e0782eabfb3d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xs</name>
+      <type>Main</type>
+      <value>id(&quot;grid&quot;)/div[text()='1']/text()</value>
+      <webElementGuid>3cd138a7-7ca0-46b5-9ba3-14b7f53abcdc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>d94fff72-160a-4f16-8f2b-04ac22cac789</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

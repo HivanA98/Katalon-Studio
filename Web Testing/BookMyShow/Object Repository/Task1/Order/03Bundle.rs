@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>03Bundle</name>
+   <tag></tag>
+   <elementGuidId>114e85e9-109b-48ff-85ba-eae593af777f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'bmsportal-card-content-title' and (text() = '[Automation Test] 20 Nov 2023 7:38 AM GA Bundle' or . = '[Automation Test] 20 Nov 2023 7:38 AM GA Bundle')]</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div/div/div/div[2]/div/div/div[2]/div/div[75]/div[2]/a/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b41f9241-956e-488c-a1e3-d3209f89137a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bmsportal-card-content-title</value>
+      <webElementGuid>bde9c909-31f8-4558-a037-f23cd3dd5ec2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>[Automation Test] 20 Nov 2023 7:38 AM GA Bundle</value>
+      <webElementGuid>0dcebfdd-484d-4d4c-aecb-199b7f8a1bb8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;sc-fzpjYC gJohPa bigtix-layout Layout__StyledLayoutTemplate-sc-1ptouf0-0 gSDraJ&quot;]/div[@class=&quot;sc-fzokOt hLgJkJ bigtix-layout__body&quot;]/div[@class=&quot;bigtix-layout__main&quot;]/div[@class=&quot;BodyContent__StyledContent-sc-5p1m8x-0 cWiblK bmsportal-layout-body-content&quot;]/div[@class=&quot;bmsportal-layout-body-content-container&quot;]/div[@class=&quot;bmsportal-layout-body-content-main&quot;]/div[@class=&quot;ProductList__StyledProductList-z9cbll-0 kPNbxi List__StyledProductListing-zvqqpo-0 eYjRIg bmsportal-product-list&quot;]/div[@class=&quot;bmsportal-product-list-content&quot;]/div[1]/div[@class=&quot;Card__StyledCard-sc-18ygowo-0 bTmdrS bmsportal-card bmsportal-event-card&quot;]/div[@class=&quot;bmsportal-card-content&quot;]/a[1]/div[@class=&quot;bmsportal-card-content-title&quot;]</value>
+      <webElementGuid>2c1f6726-5f25-4c76-8d39-f319b05aa6a5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div/div/div/div[2]/div/div/div[2]/div/div[75]/div[2]/a/div</value>
+      <webElementGuid>188423a2-e083-46ec-98ca-75f0c7053b6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='[Automation Test] 20 Nov 2023 11:38 AM GA Auto Switch'])[1]/following::div[8]</value>
+      <webElementGuid>7ce5847d-de6f-4bb8-b7c1-b7dbbdacfb0b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='[Automation Test] 2 Nov 2023 8:15 AM Flexible Package GA x RS x OS'])[1]/following::div[16]</value>
+      <webElementGuid>ace16398-2b93-4b3d-ba63-4fc1fbc0c593</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='[Automation Test] 20 Nov 2023 7:43 AM RS No Overview Map'])[1]/preceding::div[6]</value>
+      <webElementGuid>6454043a-e696-44a4-a840-3c81c0aee274</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='[Automation Test] 20 Nov 2023 7:51 AM Online Streaming'])[1]/preceding::div[14]</value>
+      <webElementGuid>f5197ced-23a8-478e-96b6-b84bc20eb0da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='[Automation Test] 20 Nov 2023 7:38 AM GA Bundle']/parent::*</value>
+      <webElementGuid>5897340e-822f-48bb-ac55-3d8fff66a52d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[75]/div[2]/a/div</value>
+      <webElementGuid>48fc90c7-4438-4dae-ac6d-589454855605</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '[Automation Test] 20 Nov 2023 7:38 AM GA Bundle' or . = '[Automation Test] 20 Nov 2023 7:38 AM GA Bundle')]</value>
+      <webElementGuid>5a267847-5dfa-4b25-98d7-c268a386b279</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

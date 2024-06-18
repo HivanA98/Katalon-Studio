@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Tokyo Hospital Program 2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>81627878-c5f3-49bc-80e5-f0f875030764</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e51744d7-4541-44df-926e-52ac28cdb3f0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9421d73d-4e32-406b-9962-b8255e5fa4c1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a5d0767c-921d-4849-b9c0-2319a70e4843</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'John Doe'</defaultValue>
+      <description></description>
+      <id>e51744d7-4541-44df-926e-52ac28cdb3f0</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM'</defaultValue>
+      <description></description>
+      <id>9421d73d-4e32-406b-9962-b8255e5fa4c1</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>'Ini Komentar'</defaultValue>
+      <description></description>
+      <id>a5d0767c-921d-4849-b9c0-2319a70e4843</id>
+      <masked>false</masked>
+      <name>Commentar</name>
+   </variable>
+</TestCaseEntity>

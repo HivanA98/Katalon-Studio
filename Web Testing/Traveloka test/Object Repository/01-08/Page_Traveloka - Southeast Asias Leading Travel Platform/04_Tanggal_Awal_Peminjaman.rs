@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>04_Tanggal_Awal_Peminjaman</name>
+   <tag></tag>
+   <elementGuidId>08f62ee8-5184-4e88-a933-36f02c93e7a2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;__next&quot;]/div[3]/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div/div[2]/div/div[3]/div/div[1]/div[1]/input</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.css-1dbjc4n.r-13awgt0 > div.css-1dbjc4n > div.css-1dbjc4n > div.css-1dbjc4n.r-1awozwy.r-18u37iz.r-1777fci.r-edyy15 > div.css-1dbjc4n.r-14lw9ot.r-rs99b7.r-1p0dtai.r-1d2f490.r-u8s1d.r-zchlnj.r-ipm5af.r-14qw7yl.r-z2knda.r-1wyyakw</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div[3]/div[2]/div/div[2]/div/div[3]/div/div/div/div/div[2]/div/div[3]/div/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d033e1f8-067f-465b-bbd9-5fb89f1c1fbb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-1dbjc4n r-14lw9ot r-rs99b7 r-1p0dtai r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-14qw7yl r-z2knda r-1wyyakw</value>
+      <webElementGuid>adef75a2-d890-4b91-a76a-cd2aa838a3c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;__next&quot;]/div[3]/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div/div[2]/div/div[3]/div/div[1]/div[1]/input</value>
+      <webElementGuid>f1a76aed-28dd-4a0f-afc1-16983c04ad3d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div[3]/div[2]/div/div[2]/div/div[3]/div/div/div/div/div[2]/div/div[3]/div/div/div/div</value>
+      <webElementGuid>1950ebf4-0a24-4b91-b681-c9ccbfa43262</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div/div[2]/div/div[3]/div/div/div/div</value>
+      <webElementGuid>52e3af5c-955f-42b4-9340-139ce875eaad</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

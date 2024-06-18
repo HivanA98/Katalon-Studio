@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SiCepatTeknikalTest</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fd52ed75-83b8-46e9-8ad6-8d6da0ce0f88</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>11a71d00-c41e-49b9-a9ea-d11e84dec0b5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4ab8ac62-b34f-4097-9536-736e82a3c8e6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c600b71c-a06d-4994-8886-2ed704d9cf44</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'standard_user'</defaultValue>
+      <description></description>
+      <id>11a71d00-c41e-49b9-a9ea-d11e84dec0b5</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'qcu24s4901FyWDTwXGr6XA=='</defaultValue>
+      <description></description>
+      <id>4ab8ac62-b34f-4097-9536-736e82a3c8e6</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'$29.99'</defaultValue>
+      <description></description>
+      <id>c600b71c-a06d-4994-8886-2ed704d9cf44</id>
+      <masked>false</masked>
+      <name>harga</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>T2</name>
+   <tag></tag>
+   <elementGuidId>2f8baec7-8332-4a0e-8ab9-bd510d20e048</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='bigtix-booking-layout-scroll-id']/div/div/div/div/div/div/div/div[3]/div[3]/button/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>783106ea-2486-4292-8f50-9fe343a457db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Remove</value>
+      <webElementGuid>340bce7b-c5e9-4790-ba58-a6f30dc658f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;bigtix-booking-layout-scroll-id&quot;)/div[@class=&quot;bigtix-booking-layout-body-content-container&quot;]/div[@class=&quot;bigtix-booking-layout-body-content-main bigtix-booking-layout-body-fullheight&quot;]/div[@class=&quot;ShoppingCart__PageContainer-hcqnl9-0 dsBriG&quot;]/div[@class=&quot;ShoppingCart__PageContentContainer-hcqnl9-1 hOZJDe&quot;]/div[@class=&quot;ShoppingCart__StyledContainer-hcqnl9-4 jqVjLa&quot;]/div[@class=&quot;sc-fznJRM ShoppingCart__StyledCartContainer-hcqnl9-5 eKifwP&quot;]/div[@class=&quot;Detailed__StyledContainer-thegxr-0 fsIhPd bigtix-checkout-cart-breakdown-detailed&quot;]/div[@class=&quot;Product__StyledProduct-sc-145bt0y-0 iBFhLd bigtix-checkout-cart-breakdown-detailed-product-product Detailed__StyledCartBreakdownDetailedProduct-thegxr-1 csFqhL&quot;]/div[@class=&quot;Extra__StyledExtra-sc-6etkt2-0 eA-DtRk bigtix-checkout-cart-breakdown-detailed-product-product-extra&quot;]/button[@class=&quot;sc-fzqARJ jBMXyF bigtix-button bigtix-button--text Remove__StyledRemove-a4vyt2-0 hpLpiN bigtix-checkout-cart-breakdown-detailed-product-product-remove&quot;]/div[1]</value>
+      <webElementGuid>293b3f71-048e-4134-968f-abef2a1b1201</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='bigtix-booking-layout-scroll-id']/div/div/div/div/div/div/div/div[3]/div[3]/button/div</value>
+      <webElementGuid>216d733e-f45d-4c63-92b3-e5c814243776</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='S$20.00'])[5]/following::div[1]</value>
+      <webElementGuid>b6772967-3108-4a77-9122-5e801f678bfb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Automated Venue'])[2]/following::div[3]</value>
+      <webElementGuid>51846cb7-3e13-4ac6-a3dc-3024ef089e0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tickets'])[2]/preceding::div[1]</value>
+      <webElementGuid>76b0ed82-2ff3-4881-9105-0c423ff35c55</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='S$20.00'])[6]/preceding::div[3]</value>
+      <webElementGuid>52546912-bc6b-4a3b-bbd9-51830a2dc805</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[3]/button/div</value>
+      <webElementGuid>ac5d550e-d32b-4350-978d-5426883e31df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Remove' or . = 'Remove')]</value>
+      <webElementGuid>5a3f41e7-df18-4a31-879c-49ee67cfb90f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>01VerifiySellProducts</name>
+   <tag></tag>
+   <elementGuidId>89cdfc0d-c985-4e5e-bbc4-910945548d1c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/section/section/header/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.sc-koaBLD.bvfzJU</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d446cdb4-c294-4b9d-a2d6-500ccd120642</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-koaBLD bvfzJU</value>
+      <webElementGuid>73cfd422-c923-40fa-906d-71278bcafaa4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sell ProductsQuick sale</value>
+      <webElementGuid>4a23ce2a-7d6c-49dd-85c2-8609f60e4704</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/section[@class=&quot;ant-layout&quot;]/section[@class=&quot;ant-layout sc-fubCfw jwTLJn&quot;]/header[@class=&quot;ant-layout-header sc-eCssSg dBGjHq&quot;]/div[@class=&quot;sc-gKsewC sc-iBPRYJ jyCpSH cOWINi&quot;]/div[@class=&quot;sc-koaBLD bvfzJU&quot;]</value>
+      <webElementGuid>f8086b46-c4b5-4b8e-9ce7-2117b618e6f4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/section/section/header/div/div</value>
+      <webElementGuid>9434ada8-bc53-4d1a-ae52-6e8768f3fd4c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='We recommend switching to a tablet or desktop for best viewing experience.'])[1]/following::div[2]</value>
+      <webElementGuid>54bdc955-6469-495e-9eea-91fd164ca4c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sorry this content is not supported on mobile.'])[1]/following::div[3]</value>
+      <webElementGuid>d9a38785-fbe1-4939-b54b-251531132203</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Type'])[1]/preceding::div[3]</value>
+      <webElementGuid>14852388-091d-4d9a-b145-95a8b339c4cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Sell Products']/parent::*</value>
+      <webElementGuid>67ea24bf-4dda-4543-ba99-6b78f731bca4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//header/div/div</value>
+      <webElementGuid>ff2c6a62-6ebb-4e84-861c-7ccf703def49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Sell ProductsQuick sale' or . = 'Sell ProductsQuick sale')]</value>
+      <webElementGuid>793bd195-e17a-4b07-b9e9-67f9f7876fa3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

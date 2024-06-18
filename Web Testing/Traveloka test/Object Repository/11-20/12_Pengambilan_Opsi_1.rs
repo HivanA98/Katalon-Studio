@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>12_Pengambilan_Opsi_1</name>
+   <tag></tag>
+   <elementGuidId>c7735243-9f2d-4578-b040-49fc5c5ad204</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.css-1dbjc4n.r-14lw9ot.r-1q52ik8.r-qklmqi.r-1loqt21.r-kzbkwu.r-1otgn73.r-1i6wzkk.r-lrvibr > div.css-1dbjc4n.r-18u37iz.r-1wtj0ep > div.css-1dbjc4n.r-13awgt0</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='RENTAL_PICKUP_LOCATION']/div/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0eaff9f1-d2a0-4967-ace5-7136b8d075c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-1dbjc4n r-13awgt0</value>
+      <webElementGuid>b2f1e2c8-3315-480b-a8f6-d6e97106f6ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pool MCC Jakarta UtaraJl. Raya Tugu No.19, RT.11/RW.1, Tugu Utara, Kec. Koja, Kota Jkt Utara, Daerah Khusus Ibukota Jakarta 14260Operational Hours: 00:00 - 24:00</value>
+      <webElementGuid>5016bf9a-94db-4e73-8e52-c7b072ade16d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;RENTAL_PICKUP_LOCATION&quot;)/div[@class=&quot;css-1dbjc4n r-14lw9ot r-kdyh1x r-b4qz5r r-1ifxtd0 r-nsbfu8 r-136ojw6&quot;]/div[@class=&quot;css-1dbjc4n r-eqz5dr&quot;]/div[@class=&quot;css-1dbjc4n r-14lw9ot r-kdyh1x r-da5iq2&quot;]/div[@class=&quot;css-1dbjc4n&quot;]/div[@class=&quot;css-1dbjc4n r-391gc0 r-nsbfu8&quot;]/div[@class=&quot;css-1dbjc4n r-184en5c&quot;]/div[@class=&quot;css-1dbjc4n r-14lw9ot r-kdyh1x r-da5iq2 r-1udh08x&quot;]/div[@class=&quot;css-1dbjc4n r-1xk3nun r-1udh08x&quot;]/div[@class=&quot;css-1dbjc4n r-14lw9ot r-1xk3nun r-17y9yhz&quot;]/div[@class=&quot;css-1dbjc4n r-14lw9ot r-1q52ik8 r-qklmqi r-1loqt21 r-kzbkwu r-1otgn73 r-1i6wzkk r-lrvibr&quot;]/div[@class=&quot;css-1dbjc4n r-18u37iz r-1wtj0ep&quot;]/div[@class=&quot;css-1dbjc4n r-13awgt0&quot;]</value>
+      <webElementGuid>ddb65576-84c9-4431-8d54-5226cc9fc77b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='RENTAL_PICKUP_LOCATION']/div/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div</value>
+      <webElementGuid>dd000a18-bb8c-43a3-ad8f-c1e1e5752691</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rental Office'])[2]/following::div[6]</value>
+      <webElementGuid>3faa68f2-0a4e-40a0-bf39-ec461afc51c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pick-up Location'])[1]/following::div[11]</value>
+      <webElementGuid>aba70735-ffdc-419d-a68a-724fdd059401</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div[2]/div/div/div/div</value>
+      <webElementGuid>249b9ca0-e8bc-4c56-927f-052d195a1b94</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Pool MCC Jakarta UtaraJl. Raya Tugu No.19, RT.11/RW.1, Tugu Utara, Kec. Koja, Kota Jkt Utara, Daerah Khusus Ibukota Jakarta 14260Operational Hours: 00:00 - 24:00' or . = 'Pool MCC Jakarta UtaraJl. Raya Tugu No.19, RT.11/RW.1, Tugu Utara, Kec. Koja, Kota Jkt Utara, Daerah Khusus Ibukota Jakarta 14260Operational Hours: 00:00 - 24:00')]</value>
+      <webElementGuid>88c03787-ffa3-4531-9a06-937f4a34a407</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>28BookingID</name>
+   <tag></tag>
+   <elementGuidId>6cc3b746-f072-4d11-81ea-10bc15f3bac1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/purchase-ticket/payment-result']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/section/main/div[2]/div/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.sc-gVKWmJ.cNMvoA</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>7f190d65-795e-4358-a447-737aba633f55</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-gVKWmJ cNMvoA</value>
+      <webElementGuid>86aa814b-0818-40ec-9233-5ba79d38f786</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/purchase-ticket/payment-result</value>
+      <webElementGuid>327fd8ca-22e1-4147-b54c-bec3675602a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>UXX4 5PD7 7G5P</value>
+      <webElementGuid>93182898-1fa0-4911-b066-c509fb80f0b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/section[@class=&quot;ant-layout sc-gsTCUz eqTDWM&quot;]/main[@class=&quot;ant-layout-content&quot;]/div[@class=&quot;sc-hzrdii iUevxo&quot;]/div[@class=&quot;sc-LUELm dTxBYB&quot;]/a[@class=&quot;sc-gVKWmJ cNMvoA&quot;]</value>
+      <webElementGuid>3ab50de1-2f9f-4138-9aee-176e46c78d93</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/section/main/div[2]/div/a</value>
+      <webElementGuid>22f10e73-aae0-4af6-b239-98b478eac92c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'UXX4 5PD7 7G5P')]</value>
+      <webElementGuid>aae35d9f-eb40-4fe9-8840-76551dabdd76</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Booking ID'])[1]/following::a[1]</value>
+      <webElementGuid>b22364f1-9b64-45ee-9a0b-c06f0da0a880</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tickets successfully purchased'])[1]/following::a[1]</value>
+      <webElementGuid>6c02f6a9-fe75-4cac-ac3f-6bba44794607</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/preceding::a[1]</value>
+      <webElementGuid>b9634606-890c-4833-b333-0e29c7367691</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ivan@gmail.com'])[1]/preceding::a[1]</value>
+      <webElementGuid>a524937a-85a1-4c37-874f-f526a4c0c6bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='UXX4 5PD7 7G5P']/parent::*</value>
+      <webElementGuid>6ba6e938-82a4-464d-86de-71fe0c2cef9b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/purchase-ticket/payment-result')]</value>
+      <webElementGuid>184ec698-f42d-4498-9c70-388f49624e25</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a</value>
+      <webElementGuid>d8b78854-733b-41e2-879e-3562c1bd53c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/purchase-ticket/payment-result' and (text() = 'UXX4 5PD7 7G5P' or . = 'UXX4 5PD7 7G5P')]</value>
+      <webElementGuid>fd5d7cf4-b44d-4bfb-8b4d-57583a153772</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

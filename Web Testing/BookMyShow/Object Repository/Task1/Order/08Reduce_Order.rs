@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>08Reduce_Order</name>
+   <tag></tag>
+   <elementGuidId>35b8264b-478d-4edb-a1f9-c5a89ddc714d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.sc-pZBmh.dPWHpf.bigtix-card.Card__StyledTicketTypeCardV2-sc-1765t98-0.cAJkDn.bigtix-booking-tickettype-card.bigtix-booking-tickettype-card-selected > div.bigtix-card__content > div.bigtix-card__body > div.bigtix-card__extra > div.sc-paXsP.kayDiQ.bigtix-quantity-stepper > button.sc-AxgMl.kNETwN.bigtix-button.bigtix-button--primary.bigtix-quantity-stepper__stepper.bigtix-quantity-stepper__minus</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ad03c7d1-99b5-4361-8b0b-d950a55c1d57</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>cfc05502-2aac-4359-9b2b-1b9ebb70e276</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-AxgMl kNETwN bigtix-button bigtix-button--primary bigtix-quantity-stepper__stepper bigtix-quantity-stepper__minus</value>
+      <webElementGuid>6e487e8b-529c-4762-be7b-9427453133fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test</name>
+      <type>Main</type>
+      <value>bigtix-test-quantity-select-minus</value>
+      <webElementGuid>8e62e530-88d1-4281-bf88-c7b2dcf61dcd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;bigtix-booking-layout-scroll-id&quot;)/div[@class=&quot;bigtix-booking-layout-body-content-container&quot;]/div[@class=&quot;bigtix-booking-layout-body-content-main bigtix-booking-layout-body-fullheight&quot;]/div[@class=&quot;TicketTypes__Container-xe0o5b-0 kmMoyi TicketXDelivery__StyledTicketTypesWrapper-sc-1sankiu-3 hBuZcv&quot;]/div[@class=&quot;sc-pZBmh dPWHpf bigtix-card Card__StyledTicketTypeCardV2-sc-1765t98-0 cAJkDn bigtix-booking-tickettype-card bigtix-booking-tickettype-card-selected&quot;]/div[@class=&quot;bigtix-card__content&quot;]/div[@class=&quot;bigtix-card__body&quot;]/div[@class=&quot;bigtix-card__extra&quot;]/div[@class=&quot;sc-paXsP kayDiQ bigtix-quantity-stepper&quot;]/button[@class=&quot;sc-AxgMl kNETwN bigtix-button bigtix-button--primary bigtix-quantity-stepper__stepper bigtix-quantity-stepper__minus&quot;]</value>
+      <webElementGuid>8ead9292-44b6-4cbd-b079-5da4c309b9f8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[3]</value>
+      <webElementGuid>33f0ff1d-d448-4597-8c0d-6078d315907f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='bigtix-booking-layout-scroll-id']/div/div[2]/div[5]/div[2]/div[2]/div/div[2]/div[2]/button</value>
+      <webElementGuid>e2751c53-dca3-425f-92d4-abefea13f510</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='S$10.00'])[2]/following::button[1]</value>
+      <webElementGuid>f66cfa68-3fbe-4a38-afab-783bc08a70ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='S$20.00'])[1]/following::button[1]</value>
+      <webElementGuid>3ff73011-aa5e-4345-9a38-7194e6450126</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/preceding::button[2]</value>
+      <webElementGuid>4930ea4b-3733-42b9-a594-3fbb0a0d68aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm'])[1]/preceding::button[3]</value>
+      <webElementGuid>0e0bba5a-7400-4838-be54-1e1a39a05bcd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div[2]/div[2]/button</value>
+      <webElementGuid>a3c18bcd-4578-4451-b90e-ac9f627fe8e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button']</value>
+      <webElementGuid>35fc4a47-c7c1-4979-a05b-a834b93b5ee8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

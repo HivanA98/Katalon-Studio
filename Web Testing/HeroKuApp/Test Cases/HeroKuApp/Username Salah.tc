@@ -4,44 +4,6 @@
    <name>Username Salah</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>dbd8c365-4288-4638-85f1-c6a97384ef25</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>308ddf6d-2fa7-4c34-ba49-e937fb1c6b09</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>700106a3-be95-41f3-b273-727014662c0d</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>03f4b991-a3f6-4abc-8531-c4889292c068</variableId>
-   </variableLinks>
-   <variable>
-      <defaultValue>'John Doe'</defaultValue>
-      <description></description>
-      <id>308ddf6d-2fa7-4c34-ba49-e937fb1c6b09</id>
-      <masked>false</masked>
-      <name>Username</name>
-   </variable>
-   <variable>
-      <defaultValue>'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM'</defaultValue>
-      <description></description>
-      <id>700106a3-be95-41f3-b273-727014662c0d</id>
-      <masked>false</masked>
-      <name>Password</name>
-   </variable>
-   <variable>
-      <defaultValue>'Ini Komentar'</defaultValue>
-      <description></description>
-      <id>03f4b991-a3f6-4abc-8531-c4889292c068</id>
-      <masked>false</masked>
-      <name>Commentar</name>
-   </variable>
 </TestCaseEntity>

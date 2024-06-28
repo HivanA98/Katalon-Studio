@@ -4,4 +4,24 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'John Doe'</initValue>
+      <name>Username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM'</initValue>
+      <name>Password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'This is commentar'</initValue>
+      <name>Commentar</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'22/10/2024'</initValue>
+      <name>VisitDate</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

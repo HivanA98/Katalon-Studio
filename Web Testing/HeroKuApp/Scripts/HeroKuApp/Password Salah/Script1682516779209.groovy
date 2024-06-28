@@ -27,7 +27,7 @@ WebUI.click(findTestObject('Object Repository/Hero Ku App/a_Make Appointment'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Hero Ku App/h2_Login'), 0)
 
-WebUI.setText(findTestObject('Object Repository/Hero Ku App/input_Username_username'), Username)
+WebUI.setText(findTestObject('Object Repository/Hero Ku App/input_Username_username'), GlobalVariable.Username)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Hero Ku App/input_Password_password'), 'DYb6Od3o9v9NSdlqjLt3+Q==')
 

@@ -4,44 +4,6 @@
    <name>Tokyo Hospital Program Tanpa Program</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>80d6ebe1-191b-4639-9fbe-f5c31420dbd0</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>9739b616-bbb0-4046-8aad-04be1da93125</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>c3b14839-e505-4305-825d-7e3cfdf19e3b</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>dd008f16-8975-4d42-9d89-7d978b40957a</variableId>
-   </variableLinks>
-   <variable>
-      <defaultValue>'John Doe'</defaultValue>
-      <description></description>
-      <id>9739b616-bbb0-4046-8aad-04be1da93125</id>
-      <masked>false</masked>
-      <name>Username</name>
-   </variable>
-   <variable>
-      <defaultValue>'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM'</defaultValue>
-      <description></description>
-      <id>c3b14839-e505-4305-825d-7e3cfdf19e3b</id>
-      <masked>false</masked>
-      <name>Password</name>
-   </variable>
-   <variable>
-      <defaultValue>'Ini Komentar'</defaultValue>
-      <description></description>
-      <id>dd008f16-8975-4d42-9d89-7d978b40957a</id>
-      <masked>false</masked>
-      <name>Commentar</name>
-   </variable>
 </TestCaseEntity>

@@ -4,44 +4,6 @@
    <name>Soul Hospital</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>96329a65-7973-4d8e-bcad-0558d23b8a1c</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>1e561155-228f-4581-9893-8eb45a1fc832</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>38a6c67e-4d6e-472e-a6a5-c23cb7bf5e9c</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>853429f5-13f9-4282-8ad8-9d15c438abb2</variableId>
-   </variableLinks>
-   <variable>
-      <defaultValue>'John Doe'</defaultValue>
-      <description></description>
-      <id>1e561155-228f-4581-9893-8eb45a1fc832</id>
-      <masked>false</masked>
-      <name>Username</name>
-   </variable>
-   <variable>
-      <defaultValue>'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM'</defaultValue>
-      <description></description>
-      <id>38a6c67e-4d6e-472e-a6a5-c23cb7bf5e9c</id>
-      <masked>false</masked>
-      <name>Password</name>
-   </variable>
-   <variable>
-      <defaultValue>'Ini Komentar'</defaultValue>
-      <description></description>
-      <id>853429f5-13f9-4282-8ad8-9d15c438abb2</id>
-      <masked>false</masked>
-      <name>Commentar</name>
-   </variable>
 </TestCaseEntity>

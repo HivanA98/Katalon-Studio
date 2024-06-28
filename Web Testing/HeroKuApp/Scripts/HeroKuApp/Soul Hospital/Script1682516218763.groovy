@@ -27,9 +27,9 @@ WebUI.click(findTestObject('Object Repository/Hero Ku App/a_Make Appointment'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Hero Ku App/h2_Login'), 0)
 
-WebUI.setText(findTestObject('Object Repository/Hero Ku App/input_Username_username'), Username)
+WebUI.setText(findTestObject('Object Repository/Hero Ku App/input_Username_username'), GlobalVariable.Username)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Hero Ku App/input_Password_password'), Password)
+WebUI.setEncryptedText(findTestObject('Object Repository/Hero Ku App/input_Password_password'), GlobalVariable.Password)
 
 WebUI.verifyElementClickable(findTestObject('Object Repository/Hero Ku App/button_Login'))
 
@@ -46,17 +46,15 @@ WebUI.click(findTestObject('Object Repository/Hero Ku App/input_Medicaid_program
 
 WebUI.click(findTestObject('Object Repository/Hero Ku App/input_Medicare_programs'))
 
-WebUI.setText(findTestObject('Object Repository/Hero Ku App/input_Visit Date (Required)_visit_date'), '22/10/2022')
+WebUI.setText(findTestObject('Object Repository/Hero Ku App/input_Visit Date (Required)_visit_date'), GlobalVariable.VisitDate)
 
-WebUI.setText(findTestObject('Object Repository/Hero Ku App/textarea_Comment_comment'), Commentar)
+WebUI.setText(findTestObject('Object Repository/Hero Ku App/textarea_Comment_comment'), GlobalVariable.Commentar)
 
 WebUI.verifyElementClickable(findTestObject('Object Repository/Hero Ku App/button_Book Appointment'))
 
 WebUI.click(findTestObject('Object Repository/Hero Ku App/button_Book Appointment'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Hero Ku App/h2_Appointment Confirmation'), 'Appointment Confirmation')
-
-WebUI.takeFullPageScreenshotAsCheckpoint('C:\\\\Screenshot.jpg')
 
 WebUI.closeBrowser()
 

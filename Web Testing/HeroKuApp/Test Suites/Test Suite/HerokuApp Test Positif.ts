@@ -17,24 +17,6 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/HeroKuApp/All Select</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>377a5e4a-ca4d-414f-8e24-a4a7b9ecc8b6</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>44b97bda-f343-4647-95f9-12cd7be36030</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>33882c9c-5e6d-46d0-9aca-8785608ec9d9</variableId>
-      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>a7b9d5dd-2678-4aea-b773-59796200f0d7</guid>
@@ -42,24 +24,6 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/HeroKuApp/Hongkong Hospital Program 1</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>6c8d8d39-d210-49a9-bb6c-ada3025b1eab</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>c5509eea-1a73-4f59-ba4e-868d59d870b5</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>64ec6569-c5f1-42e5-b877-b9bfdfcb0230</variableId>
-      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>5b5806ef-3734-4d06-ba08-80e37ec7bdbe</guid>
@@ -67,24 +31,6 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/HeroKuApp/Hongkong Hospital Program 2</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>c54696d6-098c-4d9f-8e81-10e1f59be170</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>2c574e67-b0fd-4b98-8a6c-95630ac5a525</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>df001c24-8dc6-43e9-b20d-682b10cfdebd</variableId>
-      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>7d75fce6-1e4b-496c-880c-902b0d4dcf97</guid>
@@ -92,24 +38,6 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/HeroKuApp/Hongkong Hospital Tanpa Program</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>c7c200d0-3827-4ac9-9b81-9ec70b6d387d</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>65f88988-bf8b-4f16-8583-8d907df4b391</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>22a250b8-5608-493e-a6d9-f33d749ceec1</variableId>
-      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>a27ebced-434e-493e-ad3c-11c57f62ec57</guid>
@@ -117,24 +45,6 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/HeroKuApp/Hongkong Hospital</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>2931a720-62da-4d3e-8848-587a64277ee4</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>64b19e33-0c63-41cb-a76b-cf6f912b4c8a</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>ca9be49a-0737-4f8f-a42d-f74260537da1</variableId>
-      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>b503f51c-3229-4ff3-afe0-cf7b0ad03445</guid>
@@ -142,24 +52,6 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/HeroKuApp/Soul Hospital Program 1</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>9b75fe91-9791-4cd7-a6aa-27079e69b5ff</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>411cbbb7-c7b0-4b1a-97c2-5f8afeddf6c7</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>29c72f10-ee9f-49d2-8463-a72fa090e660</variableId>
-      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>231bca91-c19c-40c5-8bda-b9dfc4f07ee9</guid>
@@ -167,24 +59,6 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/HeroKuApp/Soul Hospital Program 2</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>8c3eb88c-31af-4de9-b99b-de11460468ba</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>43e6142b-705f-41ae-bb1b-102b521ba959</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>00b3e677-1af9-43b8-a524-dce2b95bfff9</variableId>
-      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>2edc7626-543a-420b-90a9-028b41654373</guid>
@@ -192,24 +66,6 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/HeroKuApp/Soul Hospital Tanpa Program</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>7180a36d-94a8-439f-835a-539b1fde17af</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>1d49e865-9516-4a9f-863e-6ff38d72622e</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>d314fcb1-8fe1-40d0-b1b7-6641cd506d46</variableId>
-      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>17b67ea7-7613-49c9-98b8-0559a75b9e54</guid>
@@ -217,24 +73,6 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/HeroKuApp/Soul Hospital</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>1e561155-228f-4581-9893-8eb45a1fc832</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>38a6c67e-4d6e-472e-a6a5-c23cb7bf5e9c</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>853429f5-13f9-4282-8ad8-9d15c438abb2</variableId>
-      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>4fa63e01-a253-47ec-944e-0ee2502d0630</guid>
@@ -242,24 +80,6 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/HeroKuApp/Tokyo Hospital Program 1</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>7fd43aad-2cde-40d3-9511-94223d393454</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>4083e44c-03a6-4ece-91ba-cb614a8267a3</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>1e24b406-233d-4553-92c4-36bf66228ae2</variableId>
-      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>9358cfcc-c1de-4cb3-a058-9268f8744093</guid>
@@ -267,24 +87,6 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/HeroKuApp/Tokyo Hospital Program 2</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>e51744d7-4541-44df-926e-52ac28cdb3f0</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>9421d73d-4e32-406b-9962-b8255e5fa4c1</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>a5d0767c-921d-4849-b9c0-2319a70e4843</variableId>
-      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>670950f1-32bf-4c57-be45-644c2d90dd7f</guid>
@@ -292,24 +94,6 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/HeroKuApp/Tokyo Hospital Program Tanpa Program</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>9739b616-bbb0-4046-8aad-04be1da93125</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>c3b14839-e505-4305-825d-7e3cfdf19e3b</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>dd008f16-8975-4d42-9d89-7d978b40957a</variableId>
-      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>9ef3db69-549c-454d-864a-b9966460f6a6</guid>
@@ -317,23 +101,5 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/HeroKuApp/Tokyo Hospital</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>cd75413d-0843-40c2-b1e5-8ee168bfdbae</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>6462b4c6-62e3-4fcc-b067-b411e860f516</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>3d847be8-c14e-4435-b7a1-ca716c8e67d1</variableId>
-      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

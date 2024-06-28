@@ -29,7 +29,7 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Hero Ku App/h2_Logi
 
 WebUI.setText(findTestObject('Object Repository/Hero Ku App/input_Username_username'), Commentar)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Hero Ku App/input_Password_password'), Password)
+WebUI.setEncryptedText(findTestObject('Object Repository/Hero Ku App/input_Password_password'), GlobalVariable.Password)
 
 WebUI.verifyElementClickable(findTestObject('Object Repository/Hero Ku App/button_Login'))
 

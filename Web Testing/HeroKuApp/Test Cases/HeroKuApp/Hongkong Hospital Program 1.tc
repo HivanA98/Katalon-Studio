@@ -4,44 +4,6 @@
    <name>Hongkong Hospital Program 1</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>4096017f-f093-462e-8cbf-dbf42b0a4db8</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>6c8d8d39-d210-49a9-bb6c-ada3025b1eab</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>c5509eea-1a73-4f59-ba4e-868d59d870b5</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>64ec6569-c5f1-42e5-b877-b9bfdfcb0230</variableId>
-   </variableLinks>
-   <variable>
-      <defaultValue>'John Doe'</defaultValue>
-      <description></description>
-      <id>6c8d8d39-d210-49a9-bb6c-ada3025b1eab</id>
-      <masked>false</masked>
-      <name>Username</name>
-   </variable>
-   <variable>
-      <defaultValue>'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM'</defaultValue>
-      <description></description>
-      <id>c5509eea-1a73-4f59-ba4e-868d59d870b5</id>
-      <masked>false</masked>
-      <name>Password</name>
-   </variable>
-   <variable>
-      <defaultValue>'Ini Komentar'</defaultValue>
-      <description></description>
-      <id>64ec6569-c5f1-42e5-b877-b9bfdfcb0230</id>
-      <masked>false</masked>
-      <name>Commentar</name>
-   </variable>
 </TestCaseEntity>

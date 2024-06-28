@@ -4,8 +4,12 @@
    <name>Web Testing</name>
    <tag></tag>
    <UUID>6aacddb3-dcff-49fc-a8b8-2c6d58a49453</UUID>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
+   <modifiedEdition>FREE</modifiedEdition>
+   <modifiedVersion>9.5.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>D:\KatalonStudio\Web Testing\HeroKuApp\Web Testing.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

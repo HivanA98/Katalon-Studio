@@ -17,24 +17,6 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/HeroKuApp/Password Salah</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>75591ef3-bc53-4fe2-8d44-5d50c5e68241</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>042ce301-fe40-453c-95af-80d3e2a89b5a</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>b6e56a7f-6f9d-41bc-9203-7c7a9f9d661a</variableId>
-      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>6d6ae0b0-71cc-4144-aad0-d24e139374cd</guid>
@@ -42,23 +24,5 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/HeroKuApp/Username Salah</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>308ddf6d-2fa7-4c34-ba49-e937fb1c6b09</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>700106a3-be95-41f3-b273-727014662c0d</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>03f4b991-a3f6-4abc-8531-c4889292c068</variableId>
-      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

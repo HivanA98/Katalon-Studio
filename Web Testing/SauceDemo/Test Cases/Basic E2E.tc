@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Basic E2E</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fd52ed75-83b8-46e9-8ad6-8d6da0ce0f88</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c600b71c-a06d-4994-8886-2ed704d9cf44</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'$29.99'</defaultValue>
+      <description></description>
+      <id>c600b71c-a06d-4994-8886-2ed704d9cf44</id>
+      <masked>false</masked>
+      <name>harga</name>
+   </variable>
+</TestCaseEntity>

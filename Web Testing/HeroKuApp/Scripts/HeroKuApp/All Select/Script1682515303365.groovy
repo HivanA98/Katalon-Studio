@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Hero Ku App/h1_CURA Healthcare Service'), 'CURA Healthcare Service')
 
@@ -52,5 +52,10 @@ WebUI.click(findTestObject('Object Repository/Hero Ku App/button_Book Appointmen
 
 WebUI.verifyElementText(findTestObject('Object Repository/Hero Ku App/h2_Appointment Confirmation'), 'Appointment Confirmation')
 
-WebUI.closeBrowser()
+String ConfirmSuccess = WebUI.getText(findTestObject('Hero Ku App/h2_Appointment Confirmation'))
+
+println(ConfirmSuccess)
+
+//WebUI.closeBrowser()
+
 

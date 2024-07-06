@@ -17,26 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser(GlobalVariable.Web)
 
-WebUI.navigateToUrl(GlobalVariable.URL)
+WebUI.click(findTestObject('Elements/Page_DEMOQA/ElementsCard'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Hero Ku App/h1_CURA Healthcare Service'), 'CURA Healthcare Service')
+WebUI.waitForElementPresent(findTestObject('Elements/Page_DEMOQA/TextBoxTab'), 50)
 
-WebUI.click(findTestObject('Object Repository/Hero Ku App/a_Make Appointment'))
+WebUI.click(findTestObject('Elements/Page_DEMOQA/TextBoxTab'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Hero Ku App/h2_Login'), 0)
+WebUI.waitForElementPresent(findTestObject('Elements/Page_DEMOQA/ButtonSubmit'), 50)
 
-WebUI.setText(findTestObject('Object Repository/Hero Ku App/input_Username_username'), Commentar)
+WebUI.sendKeys(findTestObject('Elements/Page_DEMOQA/FullNameUserName'), GlobalVariable.FirstName)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Hero Ku App/input_Password_password'), GlobalVariable.Password)
+WebUI.sendKeys(findTestObject('Elements/Page_DEMOQA/Email'), GlobalVariable.Email)
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Hero Ku App/button_Login'))
+WebUI.sendKeys(findTestObject('Elements/Page_DEMOQA/CurrentAddress'), GlobalVariable.City)
 
-WebUI.click(findTestObject('Object Repository/Hero Ku App/button_Login'))
+WebUI.sendKeys(findTestObject('Elements/Page_DEMOQA/PermanentAddress'), GlobalVariable.Country)
 
-WebUI.verifyElementText(findTestObject('Hero Ku App/p_Login failed Please ensure the username and password are valid'), 
-    'Login failed! Please ensure the username and password are valid.')
+WebUI.click(findTestObject('Elements/Page_DEMOQA/ButtonSubmit'))
 
 WebUI.closeBrowser()
 

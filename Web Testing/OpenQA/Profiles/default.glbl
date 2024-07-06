@@ -6,27 +6,27 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://katalon-demo-cura.herokuapp.com/'</initValue>
-      <name>URL</name>
+      <initValue>'https://demoqa.com'</initValue>
+      <name>Web</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'John Doe'</initValue>
-      <name>Username</name>
+      <initValue>'Nama Pertama'</initValue>
+      <name>FirstName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM'</initValue>
-      <name>Password</name>
+      <initValue>'Emailsaya@gmail.com'</initValue>
+      <name>Email</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'This is commentar'</initValue>
-      <name>Commentar</name>
+      <initValue>'Jakarta'</initValue>
+      <name>City</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'22/10/2024'</initValue>
-      <name>VisitDate</name>
+      <initValue>'Indonesia'</initValue>
+      <name>Country</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

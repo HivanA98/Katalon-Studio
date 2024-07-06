@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Hero Ku App/h1_CURA Healthcare Service'), 'CURA Healthcare Service')
 

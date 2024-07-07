@@ -35,6 +35,8 @@ WebUI.sendKeys(findTestObject('Elements/Page_DEMOQA/CurrentAddress'), GlobalVari
 
 WebUI.sendKeys(findTestObject('Elements/Page_DEMOQA/PermanentAddress'), GlobalVariable.Country)
 
+WebUI.waitForElementPresent(findTestObject('Elements/Page_DEMOQA/ButtonSubmit'), 0)
+
 WebUI.click(findTestObject('Elements/Page_DEMOQA/ButtonSubmit'))
 
 WebUI.closeBrowser()

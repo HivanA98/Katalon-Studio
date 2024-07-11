@@ -10,6 +10,10 @@
          <value>//div[@id='app']/div/div/div/div[2]/div[2]/div[3]/label</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@for = 'impressiveRadio']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value></value>
       </entry>
@@ -23,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>a6bb2abe-9e7d-47c9-89ab-a38d0eed3680</webElementGuid>
+      <webElementGuid>bf469d8f-9fca-4149-9bd2-a44888061719</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,23 +35,23 @@
       <name>class</name>
       <type>Main</type>
       <value>custom-control-label</value>
-      <webElementGuid>43162e06-7056-467f-b67d-72b501a31f11</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>for</name>
-      <type>Main</type>
-      <value>impressiveRadio</value>
-      <webElementGuid>20882f60-d1be-4fea-b689-1827864cb621</webElementGuid>
+      <webElementGuid>0ea6dab9-99d4-4a7f-86ed-53cbe7d4d1d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>impressiveRadio</value>
+      <webElementGuid>4414f781-b1db-4ee9-9705-10865ff14a34</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Impressive</value>
-      <webElementGuid>1d6d273c-bfb1-44d0-85b7-61c908184d6f</webElementGuid>
+      <webElementGuid>244ea6c3-5e06-41f2-9e24-7daad6ec8d4d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +59,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;body-height&quot;]/div[@class=&quot;container playgound-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 mt-4 col-md-6&quot;]/div[2]/div[@class=&quot;custom-control custom-radio custom-control-inline&quot;]/label[@class=&quot;custom-control-label&quot;]</value>
-      <webElementGuid>efbe0bef-b2fa-430d-aa44-7dd70d923c76</webElementGuid>
+      <webElementGuid>a338aaa0-356e-4f89-80ac-80332327bcc6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +67,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div/div/div[2]/div[2]/div[3]/label</value>
-      <webElementGuid>8ec66be9-d2b7-48e3-9211-bce537b8d3b0</webElementGuid>
+      <webElementGuid>08d0d43a-e557-47f1-8b17-9e80997275ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +75,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[1]/following::label[1]</value>
-      <webElementGuid>976ea342-6f67-4e31-bbe1-05cd3338fdad</webElementGuid>
+      <webElementGuid>10a1b5a7-9bb8-46d8-8f6e-67d3ccd2fadc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Do you like the site?'])[1]/following::label[2]</value>
-      <webElementGuid>050b679a-04be-4832-8672-4e27533fa18e</webElementGuid>
+      <webElementGuid>749b6f3b-cbe6-4518-9d43-408480634112</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::label[1]</value>
-      <webElementGuid>5b140365-0c71-4454-b590-2ad5c81d7479</webElementGuid>
+      <webElementGuid>a97547f1-dfb9-40b5-b977-9bc5d19556d7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Impressive'])[2]/preceding::label[2]</value>
-      <webElementGuid>0c5f6946-0774-4f70-934f-257998d0842b</webElementGuid>
+      <webElementGuid>c27a96bb-54ee-44c9-8cf2-73c68c1499b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +107,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Impressive']/parent::*</value>
-      <webElementGuid>8e983161-8a62-4c64-9863-442af9ab896b</webElementGuid>
+      <webElementGuid>6ab12bd6-339b-4984-890c-f58153c8839a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +115,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/label</value>
-      <webElementGuid>3478b4f1-ee08-4fd8-ab9a-b0cb5456937f</webElementGuid>
+      <webElementGuid>f3932288-3335-473f-85d9-e02f02e6443a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +123,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Impressive' or . = 'Impressive')]</value>
-      <webElementGuid>aa2a6b86-d73f-4e86-a1e5-b434cd93bd34</webElementGuid>
+      <webElementGuid>9333ab1c-ee75-4b7c-b9ba-143dad5dddac</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

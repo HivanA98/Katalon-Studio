@@ -6,12 +6,12 @@
    <elementGuidId>742d0ed1-e6da-4072-be85-b236907680c1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='app']/div/div/div[2]/div/div</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.card.mt-4.top-card</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div[2]/div/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

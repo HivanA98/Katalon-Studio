@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>RadioButtonCard</name>
+   <name>ButtonsCards</name>
    <tag></tag>
-   <elementGuidId>44f18c39-4d15-453d-b0a1-1282d38c0d52</elementGuidId>
+   <elementGuidId>2689218d-1642-47d8-81c8-46bd859d1a06</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//li[@id='item-2']</value>
+         <key>CSS</key>
+         <value>#item-4</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#item-2</value>
+         <key>XPATH</key>
+         <value>//li[@id='item-4']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>ac76feee-5ce3-44e4-ade1-e84a86f8a2e7</webElementGuid>
+      <webElementGuid>e77991b0-b2c1-4560-ab54-8c62c3887457</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,86 +31,86 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-light active</value>
-      <webElementGuid>fed17d45-be1f-4a56-bc54-8065882c99c4</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>item-2</value>
-      <webElementGuid>ac55b7c3-1d31-409b-bb86-ae494300beb5</webElementGuid>
+      <webElementGuid>40daf723-b2cb-4362-ac4c-2df1050a6915</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>item-4</value>
+      <webElementGuid>5c7aa146-da04-44f1-bd08-ae8c2262aac4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Radio Button</value>
-      <webElementGuid>ddc92db4-e1ee-4e5c-9b29-432204da6ca9</webElementGuid>
+      <value>Buttons</value>
+      <webElementGuid>97991567-a5e5-4e9a-97fd-c4b3f894144f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;body-height&quot;]/div[@class=&quot;container playgound-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 mt-4  col-md-3&quot;]/div[@class=&quot;left-pannel&quot;]/div[@class=&quot;accordion&quot;]/div[@class=&quot;element-group&quot;]/div[@class=&quot;element-list collapse show&quot;]/ul[@class=&quot;menu-list&quot;]/li[@id=&quot;item-2&quot;]</value>
-      <webElementGuid>27afe0b1-2266-47c7-8e3a-1e07851373bc</webElementGuid>
+      <value>id(&quot;app&quot;)/div[@class=&quot;body-height&quot;]/div[@class=&quot;container playgound-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 mt-4  col-md-3&quot;]/div[@class=&quot;left-pannel&quot;]/div[@class=&quot;accordion&quot;]/div[@class=&quot;element-group&quot;]/div[@class=&quot;element-list collapse show&quot;]/ul[@class=&quot;menu-list&quot;]/li[@id=&quot;item-4&quot;]</value>
+      <webElementGuid>2f9e7c8d-9d93-42e9-9ea9-197a205ba5ed</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//li[@id='item-2']</value>
-      <webElementGuid>79a07183-fec5-472d-b150-ca0a717496f6</webElementGuid>
+      <value>//li[@id='item-4']</value>
+      <webElementGuid>cc715d12-77d1-42e5-82ec-290bdc803ff8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/div/div/div/div/div/div/ul/li[3]</value>
-      <webElementGuid>491d1fea-2dad-4533-87c8-ad5c81aa3f1d</webElementGuid>
+      <value>//div[@id='app']/div/div/div/div/div/div/div/div/ul/li[5]</value>
+      <webElementGuid>a05eef53-4be2-4c8a-aaa7-01fdb57671f6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Check Box'])[1]/following::li[1]</value>
-      <webElementGuid>aa53c617-f4c6-4426-968c-26c97370b3ff</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Web Tables'])[1]/following::li[1]</value>
+      <webElementGuid>40b32dac-090f-4540-993f-1d3c280c9e7a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Text Box'])[1]/following::li[2]</value>
-      <webElementGuid>1cc6226f-b56e-4aec-9254-580ed6e47048</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Radio Button'])[1]/following::li[2]</value>
+      <webElementGuid>968e21b6-cab3-48ee-9a23-487775014dcf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Web Tables'])[1]/preceding::li[1]</value>
-      <webElementGuid>189c9e46-49df-48f0-a30f-02c190c64ad0</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Links'])[1]/preceding::li[1]</value>
+      <webElementGuid>f63039cb-b11c-442e-b0d5-5857b328f51a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[3]</value>
-      <webElementGuid>8193678b-af2e-451c-b786-b54a808c3b3a</webElementGuid>
+      <value>//li[5]</value>
+      <webElementGuid>db4a7629-def2-4851-a6da-2d3678270075</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//li[@id = 'item-2' and (text() = 'Radio Button' or . = 'Radio Button')]</value>
-      <webElementGuid>6e273242-667f-4b8b-b64a-31f5a8803990</webElementGuid>
+      <value>//li[@id = 'item-4' and (text() = 'Buttons' or . = 'Buttons')]</value>
+      <webElementGuid>3225885c-6ef5-4b16-a786-8d1a1e1f2169</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

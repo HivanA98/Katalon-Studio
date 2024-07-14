@@ -6,12 +6,12 @@
    <elementGuidId>143cc645-52c0-4fa8-8a85-6fcd01e4e714</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//textarea[@id='permanentAddress']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#permanentAddress</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//textarea[@id='permanentAddress']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

@@ -21,7 +21,9 @@ WebUI.openBrowser(GlobalVariable.Web)
 
 WebUI.click(findTestObject('Elements/Page_DEMOQA/ElementsCard'))
 
-WebUI.click(findTestObject('Elements/Page_DEMOQA/CheckBoxCard'))
+WebUI.click(findTestObject('Elements/Page_DEMOQA/ButtonsCards'))
 
-WebUI.click(findTestObject('Elements/Page_DEMOQA/CheckBox'))
+WebUI.doubleClick(findTestObject('Elements/Page_DEMOQA/buttonDoubleClick'))
+
+WebUI.waitForElementPresent(findTestObject('Elements/Page_DEMOQA/VerifiicationDoubleClick'), 50)
 

@@ -21,9 +21,9 @@ WebUI.openBrowser(GlobalVariable.Web)
 
 WebUI.click(findTestObject('Elements/Page_DEMOQA/ElementsCard'))
 
-WebUI.waitForElementPresent(findTestObject('Elements/Page_DEMOQA/Page_DEMOQA/RadioButtonCard'), 50)
+WebUI.waitForElementPresent(findTestObject('Elements/Page_DEMOQA/RadioButtonCard'), 50)
 
-WebUI.click(findTestObject('Elements/Page_DEMOQA/Page_DEMOQA/RadioButtonCard'))
+WebUI.click(findTestObject('Elements/Page_DEMOQA/RadioButtonCard'))
 
-WebUI.click(findTestObject('Elements/Page_DEMOQA/Page_DEMOQA/labelImpressive'))
+WebUI.click(findTestObject('Elements/Page_DEMOQA/labelImpressive'))
 

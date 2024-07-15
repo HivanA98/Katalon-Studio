@@ -23,7 +23,7 @@ WebUI.click(findTestObject('Elements/Page_DEMOQA/ElementsCard'))
 
 WebUI.click(findTestObject('Elements/Page_DEMOQA/ButtonsCards'))
 
-WebUI.rightClick(findTestObject('Elements/Page_DEMOQA/buttonRightClick'))
+WebUI.doubleClick(findTestObject('Elements/Page_DEMOQA/buttonDoubleClick'))
 
-WebUI.waitForElementPresent(findTestObject('Elements/Page_DEMOQA/VerificationRightClick'), 0)
+WebUI.waitForElementPresent(findTestObject('Elements/Page_DEMOQA/VerifiicationDoubleClick'), 50)
 

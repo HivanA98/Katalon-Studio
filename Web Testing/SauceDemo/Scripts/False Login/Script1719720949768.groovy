@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.saucedemo.com/')
+WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_user-name'), GlobalVariable.Username)
 

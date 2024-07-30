@@ -59,4 +59,9 @@
       <initValue>'20220'</initValue>
       <name>POS</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.saucedemo.com/'</initValue>
+      <name>URL</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

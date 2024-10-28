@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Delete Alert</name>
+   <tag></tag>
+   <elementGuidId>719f7408-2022-4e4a-b1a6-a4e042f5a224</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[@id='1'])[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Delete Succefully' or . = 'Delete Succefully')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#root > div.MuiBox-root.css-0 > div.MuiBox-root.css-p41gj9 > div.container-wrapper.w-max.MuiBox-root.css-0 > div.settings-page.bg-bg-primary > div.MuiBox-root.css-swezfe > div.Toastify > div.Toastify__toast-container.Toastify__toast-container--top-center > #1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>20c9e75a-cf94-41d7-a983-31bc88c315b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>adefa5e7-efae-4841-ab72-d963778ac8b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Toastify__toast Toastify__toast-theme--light Toastify__toast--error Toastify__toast--close-on-click</value>
+      <webElementGuid>4620743a-c454-463f-96fc-7c475ba4a512</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Delete Succefully</value>
+      <webElementGuid>1692e322-92dd-4047-b66d-07c4b4c64a69</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;MuiBox-root css-0&quot;]/div[@class=&quot;MuiBox-root css-p41gj9&quot;]/div[@class=&quot;container-wrapper w-max MuiBox-root css-0&quot;]/div[@class=&quot;settings-page bg-bg-primary&quot;]/div[@class=&quot;MuiBox-root css-swezfe&quot;]/div[@class=&quot;Toastify&quot;]/div[@class=&quot;Toastify__toast-container Toastify__toast-container--top-center&quot;]/div[@id=&quot;1&quot;]</value>
+      <webElementGuid>17c2f60f-c2cb-4dc5-b452-0c65ea8fc19c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//div[@id='1'])[2]</value>
+      <webElementGuid>13b7365a-6a08-485d-b2b6-4ce4011e19da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div[2]/div/div/div[3]/div/div/div</value>
+      <webElementGuid>f997a0ba-4fde-4079-861a-1094de58040d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reject Reason'])[1]/following::div[4]</value>
+      <webElementGuid>55b45413-230c-4602-8271-64318de8075f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Staff Positions'])[1]/following::div[4]</value>
+      <webElementGuid>af5e4b3c-830a-498e-a9e6-16c48fedd882</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div</value>
+      <webElementGuid>00a0ce6b-3275-4276-80fd-1c9fdab5fa50</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = '1' and (text() = 'Process Type Name already exist' or . = 'Process Type Name already exist')]</value>
+      <webElementGuid>c8a3480e-eb84-4696-bc15-b58b0b5e1e20</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

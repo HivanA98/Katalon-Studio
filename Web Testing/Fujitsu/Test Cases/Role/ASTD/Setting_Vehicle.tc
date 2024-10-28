@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Setting_Vehicle</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ea28bc61-4d5f-4270-baef-19aeeddc16ce</testCaseGuid>
+</TestCaseEntity>

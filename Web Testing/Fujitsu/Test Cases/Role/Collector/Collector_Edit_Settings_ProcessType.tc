@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Collector_Edit_Settings_ProcessType</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cf81a58b-9a18-4e13-b20f-b8db1065880b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c758d560-10f9-4361-8d3e-8aa27996b60a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b6d77fb0-2937-4b6d-bf5b-cee234a2d591</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>23eb770b-9164-4261-9c48-c49599cb8b59</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'報紙 1'</defaultValue>
+      <description></description>
+      <id>c758d560-10f9-4361-8d3e-8aa27996b60a</id>
+      <masked>false</masked>
+      <name>New_TraditionalChineseName</name>
+   </variable>
+   <variable>
+      <defaultValue>'报纸 1'</defaultValue>
+      <description></description>
+      <id>b6d77fb0-2937-4b6d-bf5b-cee234a2d591</id>
+      <masked>false</masked>
+      <name>New_SimplyChineseName</name>
+   </variable>
+   <variable>
+      <defaultValue>'newspaper 1'</defaultValue>
+      <description></description>
+      <id>23eb770b-9164-4261-9c48-c49599cb8b59</id>
+      <masked>false</masked>
+      <name>New_EnglishName</name>
+   </variable>
+</TestCaseEntity>

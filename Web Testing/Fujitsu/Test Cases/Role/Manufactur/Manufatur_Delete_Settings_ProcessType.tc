@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Manufatur_Delete_Settings_ProcessType</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b536b15d-36e6-4f82-be68-fc7b435ee3f2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5be828df-ca05-4301-8808-f35008736276</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>293be4d2-b2d6-4e4d-a4ac-a9b5a2660aa7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'報紙'</defaultValue>
+      <description></description>
+      <id>5be828df-ca05-4301-8808-f35008736276</id>
+      <masked>false</masked>
+      <name>OldName</name>
+   </variable>
+   <variable>
+      <defaultValue>'报纸 1'</defaultValue>
+      <description></description>
+      <id>293be4d2-b2d6-4e4d-a4ac-a9b5a2660aa7</id>
+      <masked>false</masked>
+      <name>NewName</name>
+   </variable>
+</TestCaseEntity>

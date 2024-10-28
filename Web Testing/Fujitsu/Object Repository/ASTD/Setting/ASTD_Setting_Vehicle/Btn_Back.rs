@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Btn_Back</name>
+   <tag></tag>
+   <elementGuidId>eb0530f5-2acc-4ca1-9e4c-40da09cf2488</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img.relative.w-6.h-6.overflow-hidden.shrink-0</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>d608e4fa-27e5-46f9-905c-35b772994496</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>relative w-6 h-6 overflow-hidden shrink-0</value>
+      <webElementGuid>22114a62-1786-43e8-8f3f-3938340cac7e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/collapse1.svg</value>
+      <webElementGuid>028c8592-d5cf-4207-bfd3-6db4b9f0fcb8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;MuiDrawer-root MuiDrawer-modal MuiModal-root css-1yrx5th-MuiModal-root-MuiDrawer-root&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-elevation16 MuiDrawer-paper MuiDrawer-paperAnchorRight css-1160xiw-MuiPaper-root-MuiDrawer-paper&quot;]/div[@class=&quot;border-b-[1px] border-grey-line h-full md:w-[550px] w-[100vw] mt-[0px]&quot;]/div[@class=&quot;header&quot;]/div[@class=&quot;header-section&quot;]/div[@class=&quot;flex flex-row items-center justify-between p-[25px] gap-[25px&quot;]/div[@class=&quot;right-action flex items-center&quot;]/div[@class=&quot;close-icon ml-2 cursor-pointer&quot;]/img[@class=&quot;relative w-6 h-6 overflow-hidden shrink-0&quot;]</value>
+      <webElementGuid>255061dd-200b-4922-9557-bf68a9619514</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/img</value>
+      <webElementGuid>4933a3f4-3002-4c63-9e4e-d1a531df522f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/collapse1.svg']</value>
+      <webElementGuid>ec4d7268-5349-48aa-bdfd-ac278c1d6d90</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

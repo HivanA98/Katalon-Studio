@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Table Weight</name>
+   <tag></tag>
+   <elementGuidId>91ac41ae-b7e9-464d-8245-c33e88a92546</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[7]/following::div[3]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@aria-controls = ':r43:']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.Mui-focused.MuiInputBase-formControl.css-j8hg7e-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root > div.MuiSelect-select.MuiSelect-outlined.MuiInputBase-input.MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8ec3c1cf-9936-4841-b1c2-e8650d702c8e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>0880218d-629c-4499-a93d-b175942a3d44</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>combobox</value>
+      <webElementGuid>f6b0f5e3-d5d7-4131-b7b1-8c1556e023fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>:r43:</value>
+      <webElementGuid>efdb4de5-d70a-4efe-80ac-5781c912439c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>4f724669-127d-445d-903b-4615abbd76f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-haspopup</name>
+      <type>Main</type>
+      <value>listbox</value>
+      <webElementGuid>149ca214-2812-42da-a824-989d75f7b905</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Without label</value>
+      <webElementGuid>4a1447e6-b083-4e71-9068-bb2945b1ef06</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input</value>
+      <webElementGuid>c69cb48f-8f71-4f91-acbd-a9f3e4d9ca0f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>​</value>
+      <webElementGuid>0427299b-6f8e-4539-8c3d-55ad0f964e13</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;MuiDrawer-root MuiDrawer-modal MuiModal-root css-1yrx5th-MuiModal-root-MuiDrawer-root&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-elevation16 MuiDrawer-paper MuiDrawer-paperAnchorRight css-1160xiw-MuiPaper-root-MuiDrawer-paper&quot;]/div[@class=&quot;border-b-[1px] border-grey-line h-full md:w-[550px] w-[100vw] mt-[0px]&quot;]/div[2]/div[@class=&quot;MuiBox-root css-1at62qq&quot;]/div[@class=&quot;MuiBox-root css-1ebprri&quot;]/div[@class=&quot;self-stretch flex flex-col items-start justify-start gap-[8px] text-mini&quot;]/div[@class=&quot;self-stretch overflow-hidden flex flex-row items-center justify-start gap-[8px]&quot;]/div[@class=&quot;w-full&quot;]/div[@class=&quot;flex justify-center items-center gap-2 mb-2&quot;]/div[@class=&quot;MuiFormControl-root css-78me8v-MuiFormControl-root&quot;]/div[@class=&quot;MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary Mui-focused MuiInputBase-formControl  css-j8hg7e-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root&quot;]/div[@class=&quot;MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input&quot;]</value>
+      <webElementGuid>20296539-1c6c-4ced-9640-e3048e1c9848</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[7]/following::div[3]</value>
+      <webElementGuid>c480a492-0b5b-4c8f-a3a8-5d0131ef2a1d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[6]/following::div[3]</value>
+      <webElementGuid>0339b872-31b3-4c10-b581-5dcdbf056049</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[9]/preceding::div[1]</value>
+      <webElementGuid>85b0e0ac-4b18-41f9-ad44-8549ad1ed912</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div[2]/div/div/div/div[3]/div/div</value>
+      <webElementGuid>e2b0527f-ea87-43b8-a6c5-487487bd862e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '​' or . = '​')]</value>
+      <webElementGuid>ab9fd742-c115-4838-8fa8-9cac2a9121f1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>ASTD_Setting_Vehicle</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator>TAB</csvSeperator>
+   <dataFileGUID>dc4743b0-bf5b-42b6-9065-76a12fc7625d</dataFileGUID>
+   <dataSourceUrl>C:\Users\hivan\Music\ASTD_Setting_Vehicle.csv</dataSourceUrl>
+   <driver>CSV</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

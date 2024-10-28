@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Alert_Process Type Name already exist</name>
+   <tag></tag>
+   <elementGuidId>73bab629-8144-40bb-aa33-9c8fe1e57c15</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Process Type Name already exist' or . = 'Process Type Name already exist')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[@id='1'])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#root > div.MuiBox-root.css-0 > div.MuiBox-root.css-p41gj9 > div.container-wrapper.w-max.MuiBox-root.css-0 > div.settings-page.bg-bg-primary > div.MuiBox-root.css-swezfe > div.Toastify > div.Toastify__toast-container.Toastify__toast-container--top-center > #1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>85657195-3aca-480f-9c69-05258ad67c38</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>beea8e94-014c-4cad-a4e9-b9548ef322a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Toastify__toast Toastify__toast-theme--light Toastify__toast--error Toastify__toast--close-on-click</value>
+      <webElementGuid>ad042352-a7a5-4f69-96a3-e8eb2efb4e40</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Process Type Name already exist</value>
+      <webElementGuid>86826566-74c2-4743-a148-a778095b0639</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;MuiBox-root css-0&quot;]/div[@class=&quot;MuiBox-root css-p41gj9&quot;]/div[@class=&quot;container-wrapper w-max MuiBox-root css-0&quot;]/div[@class=&quot;settings-page bg-bg-primary&quot;]/div[@class=&quot;MuiBox-root css-swezfe&quot;]/div[@class=&quot;Toastify&quot;]/div[@class=&quot;Toastify__toast-container Toastify__toast-container--top-center&quot;]/div[@id=&quot;1&quot;]</value>
+      <webElementGuid>8212fdd5-5d69-401e-9dbf-0664aa0357a0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//div[@id='1'])[2]</value>
+      <webElementGuid>cd476aa9-b4b5-4664-9128-11321b4c4bc2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div[2]/div/div/div[3]/div/div/div</value>
+      <webElementGuid>66af3778-1730-40d0-87ec-3c0a4c4e2d55</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reject Reason'])[1]/following::div[4]</value>
+      <webElementGuid>521a8b35-5f8d-4aa2-bdad-65b22382d28c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Staff Positions'])[1]/following::div[4]</value>
+      <webElementGuid>3a326af9-30d6-491b-9177-fd3e197ff745</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div</value>
+      <webElementGuid>af242e94-5eee-48a4-b897-ffa2e12f3eb6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = '1' and (text() = 'Process Type Name already exist' or . = 'Process Type Name already exist')]</value>
+      <webElementGuid>cb66c649-ef50-40d4-85ca-711cd53ea272</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

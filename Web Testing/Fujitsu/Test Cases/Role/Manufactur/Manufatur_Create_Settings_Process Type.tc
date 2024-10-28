@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Manufatur_Create_Settings_Process Type</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>798bc6ba-de9f-4097-9838-c1174a7238a9</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a64df012-b7d7-4a5c-9108-fc042866ebdc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>500a1bc2-7c5e-4383-a9d0-9a8b1d206b4b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7d480637-a96a-4327-9a91-e8533cd8f23a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'報紙'</defaultValue>
+      <description></description>
+      <id>a64df012-b7d7-4a5c-9108-fc042866ebdc</id>
+      <masked>false</masked>
+      <name>TraditionalChinese</name>
+   </variable>
+   <variable>
+      <defaultValue>'报纸'</defaultValue>
+      <description></description>
+      <id>500a1bc2-7c5e-4383-a9d0-9a8b1d206b4b</id>
+      <masked>false</masked>
+      <name>SimplyChinese</name>
+   </variable>
+   <variable>
+      <defaultValue>'newspaper'</defaultValue>
+      <description></description>
+      <id>7d480637-a96a-4327-9a91-e8533cd8f23a</id>
+      <masked>false</masked>
+      <name>EnglishName</name>
+   </variable>
+</TestCaseEntity>

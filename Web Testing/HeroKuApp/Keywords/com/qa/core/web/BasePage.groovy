@@ -49,6 +49,22 @@ abstract class BasePage {
 		WebUI.executeJavaScript('arguments[0].scrollIntoView({block: "center"}); arguments[0].click();', [element])
 	}
 
+	/**
+	 * Clicks the first displayed match. Responsive sites often render the same button twice
+	 * (desktop + mobile layout) and only one copy is visible.
+	 */
+	protected void clickFirstVisible(TestObject to) {
+		WebElement visible = null
+		Wait.until(timeout) {
+			visible = WebUI.findWebElements(to, 1).find { it.isDisplayed() }
+			visible != null
+		}
+		if (visible == null) {
+			KeywordUtil.markFailedAndStop("No visible element for ${to.getObjectId()}")
+		}
+		WebUI.executeJavaScript('arguments[0].scrollIntoView({block: "center"}); arguments[0].click();', [visible])
+	}
+
 	protected void doubleClick(TestObject to) {
 		scrollTo(to)
 		WebUI.doubleClick(to)

@@ -20,6 +20,14 @@ class MobileLocator {
 		return xpath("//*[@resource-id='${id}']", "resource-id=${id}")
 	}
 
+	/**
+	 * Matches 'any.package:id/<id>' - useful when the same app ships under different
+	 * application ids (e.g. AOSP vs. Google builds).
+	 */
+	static TestObject idSuffix(String id) {
+		return xpath("//*[substring(@resource-id, string-length(@resource-id) - ${id.length() + 3}) = ':id/${id}']", "id=*:id/${id}")
+	}
+
 	static TestObject text(String text) {
 		return xpath("//*[@text='${text}']", "text=${text}")
 	}

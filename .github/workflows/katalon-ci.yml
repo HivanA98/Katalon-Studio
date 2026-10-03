@@ -73,6 +73,8 @@ jobs:
     needs: static-checks
     runs-on: ubuntu-latest
     timeout-minutes: 45
+    # Experimental suites hit third-party sites (bot protection, practice UAT data) and never fail the build
+    continue-on-error: ${{ matrix.experimental }}
     strategy:
       fail-fast: false
       matrix:
@@ -83,30 +85,49 @@ jobs:
             smoke: Test Suites/POM/Smoke
             regression: Test Suites/POM/Regression
             browser: Web Service
+            experimental: false
           - name: Web · SauceDemo
             slug: web-saucedemo
             project: Web Testing/SauceDemo/Sauce.prj
             smoke: Test Suites/Smoke
             regression: Test Suites/Regression
             browser: Chrome (headless)
+            experimental: false
           - name: Web · CURA Healthcare
             slug: web-cura
             project: Web Testing/HeroKuApp/Web Testing.prj
             smoke: Test Suites/POM/Smoke
             regression: Test Suites/POM/Regression
             browser: Chrome (headless)
+            experimental: false
           - name: Web · DemoQA
             slug: web-demoqa
             project: Web Testing/OpenQA/OpenQA.prj
             smoke: Test Suites/POM/Smoke
             regression: Test Suites/POM/Regression
             browser: Chrome (headless)
+            experimental: false
           - name: Web · 1 to 50 game
             slug: web-one-to-fifty
             project: Web Testing/Traveloka test/Traveloka test.prj
             smoke: Test Suites/POM/Smoke
             regression: Test Suites/POM/Smoke
             browser: Chrome (headless)
+            experimental: false
+          - name: Web · Traveloka guest search (experimental)
+            slug: web-traveloka-guest
+            project: Web Testing/Traveloka test/Traveloka test.prj
+            smoke: Test Suites/POM/Guest Search
+            regression: Test Suites/POM/Guest Search
+            browser: Chrome (headless)
+            experimental: true
+          - name: Web · BookMyShow practice UAT (experimental)
+            slug: web-bookmyshow
+            project: Web Testing/BookMyShow/BookMyShow.prj
+            smoke: Test Suites/POM/End To End
+            regression: Test Suites/POM/End To End
+            browser: Chrome (headless)
+            experimental: true
 
     steps:
       - uses: actions/checkout@v7
@@ -172,3 +193,43 @@ jobs:
           path: katalon-reports/${{ matrix.slug }}
           if-no-files-found: warn
           retention-days: 14
+
+  # ---------------------------------------------------------------------------
+  # Android: emulator + Appium 3 + Katalon Runtime Engine (reusable workflow).
+  # ---------------------------------------------------------------------------
+  mobile:
+    name: Mobile · Calculator
+    needs: static-checks
+    uses: ./.github/workflows/katalon-mobile.yml
+    secrets: inherit
+    with:
+      name: Mobile · Calculator
+      slug: mobile-calculator
+      project: Mobile Test/Calculator/Calculator.prj
+      suite: Test Suites/POM/Mobile Regression
+      # Flip to false once the first emulator run is green to make Calculator failures block the build
+      experimental: true
+
+  # Store apps from 2022 depend on live back-ends: nightly / manual only, never blocking.
+  mobile-experimental:
+    name: Mobile · ${{ matrix.name }} (experimental)
+    needs: static-checks
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - name: Shop Samsung
+            slug: mobile-samsung
+            project: Mobile Test/samsung/samsung.prj
+          - name: Happy Day Shopping
+            slug: mobile-happy-day
+            project: Mobile Test/Section 11/Section 11.prj
+    uses: ./.github/workflows/katalon-mobile.yml
+    secrets: inherit
+    with:
+      name: ${{ matrix.name }}
+      slug: ${{ matrix.slug }}
+      project: ${{ matrix.project }}
+      suite: Test Suites/POM/Mobile Regression
+      experimental: true

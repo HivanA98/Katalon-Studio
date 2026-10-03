@@ -5,8 +5,8 @@
    <tag></tag>
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
-      <description>Traveloka home page</description>
-      <initValue>'https://www.traveloka.com/en-id'</initValue>
+      <description>Traveloka car rental page</description>
+      <initValue>'https://www.traveloka.com/en-id/car-rental'</initValue>
       <name>URL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

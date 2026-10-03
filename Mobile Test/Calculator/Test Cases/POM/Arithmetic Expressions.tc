@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Data-driven arithmetic incl. operator precedence</description>
+   <name>Arithmetic Expressions</name>
+   <tag>mobile</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a8a81f31-d0ed-44b2-bbc6-2fc1e2626cf0</testCaseGuid>
+</TestCaseEntity>

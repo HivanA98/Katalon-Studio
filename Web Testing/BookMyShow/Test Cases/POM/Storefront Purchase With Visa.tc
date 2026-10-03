@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Public storefront: pick an event, book tickets and pay with the Visa test card</description>
+   <name>Storefront Purchase With Visa</name>
+   <tag>e2e</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f8efdc77-19ff-457a-8086-23a4bc8c1bcd</testCaseGuid>
+   <variable>
+      <defaultValue>2</defaultValue>
+      <description></description>
+      <id>499c0bc5-7a6c-41f9-b78f-e893e32c1c63</id>
+      <masked>false</masked>
+      <name>quantity</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>After logout, protected pages redirect to the login page with an error</description>
+   <name>Logout Ends Session</name>
+   <tag>regression</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>33d53d2d-664e-4e1e-9de4-7a176731e8b2</testCaseGuid>
+</TestCaseEntity>

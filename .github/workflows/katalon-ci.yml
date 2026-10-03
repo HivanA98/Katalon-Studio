@@ -1,0 +1,235 @@
+name: Katalon CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: "0 1 * * 1-5" # nightly regression, Monday-Friday 01:00 UTC
+  workflow_dispatch:
+    inputs:
+      scope:
+        description: Which suites to run
+        type: choice
+        options: [smoke, regression]
+        default: smoke
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  checks: write # publish JUnit results as a check run
+
+env:
+  KATALON_VERSION: "11.5.0"
+  GROOVY_VERSION: "4.0.33"
+
+jobs:
+  # ---------------------------------------------------------------------------
+  # Runs on every push/PR without any Katalon licence.
+  # ---------------------------------------------------------------------------
+  static-checks:
+    name: Static checks
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+
+      - uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: "21"
+
+      - name: Shared core is in sync
+        run: python tools/sync_core.py --check
+
+      - name: Validate Katalon projects
+        run: python tools/validate_projects.py
+
+      - name: Cache Groovy compiler
+        uses: actions/cache@v6
+        with:
+          path: ~/.cache/groovy
+          key: groovy-${{ env.GROOVY_VERSION }}
+
+      - name: Groovy syntax check
+        run: |
+          mkdir -p ~/.cache/groovy
+          jar=~/.cache/groovy/groovy-${GROOVY_VERSION}.jar
+          [ -f "$jar" ] || curl -sSfL -o "$jar" \
+            "https://repo1.maven.org/maven2/org/apache/groovy/groovy/${GROOVY_VERSION}/groovy-${GROOVY_VERSION}.jar"
+          java -cp "$jar" tools/GroovySyntaxCheck.java .
+
+  # ---------------------------------------------------------------------------
+  # Executes the suites with Katalon Runtime Engine (needs KATALON_API_KEY).
+  # ---------------------------------------------------------------------------
+  katalon:
+    name: ${{ matrix.name }}
+    needs: static-checks
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    # Experimental suites hit third-party sites (bot protection, practice UAT data) and never fail the build
+    continue-on-error: ${{ matrix.experimental }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - name: API · ReqRes
+            slug: api-reqres
+            project: API/APIi.prj
+            smoke: Test Suites/POM/Smoke
+            regression: Test Suites/POM/Regression
+            browser: Web Service
+            experimental: false
+          - name: Web · SauceDemo
+            slug: web-saucedemo
+            project: Web Testing/SauceDemo/Sauce.prj
+            smoke: Test Suites/Smoke
+            regression: Test Suites/Regression
+            browser: Chrome (headless)
+            experimental: false
+          - name: Web · CURA Healthcare
+            slug: web-cura
+            project: Web Testing/HeroKuApp/Web Testing.prj
+            smoke: Test Suites/POM/Smoke
+            regression: Test Suites/POM/Regression
+            browser: Chrome (headless)
+            experimental: false
+          - name: Web · DemoQA
+            slug: web-demoqa
+            project: Web Testing/OpenQA/OpenQA.prj
+            smoke: Test Suites/POM/Smoke
+            regression: Test Suites/POM/Regression
+            browser: Chrome (headless)
+            experimental: false
+          - name: Web · 1 to 50 game
+            slug: web-one-to-fifty
+            project: Web Testing/Traveloka test/Traveloka test.prj
+            smoke: Test Suites/POM/Smoke
+            regression: Test Suites/POM/Smoke
+            browser: Chrome (headless)
+            experimental: false
+          - name: Web · Traveloka guest search (experimental)
+            slug: web-traveloka-guest
+            project: Web Testing/Traveloka test/Traveloka test.prj
+            smoke: Test Suites/POM/Guest Search
+            regression: Test Suites/POM/Guest Search
+            browser: Chrome (headless)
+            experimental: true
+          - name: Web · BookMyShow practice UAT (experimental)
+            slug: web-bookmyshow
+            project: Web Testing/BookMyShow/BookMyShow.prj
+            smoke: Test Suites/POM/End To End
+            regression: Test Suites/POM/End To End
+            browser: Chrome (headless)
+            experimental: true
+
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Check Katalon API key
+        id: licence
+        env:
+          KATALON_API_KEY: ${{ secrets.KATALON_API_KEY }}
+        run: |
+          if [ -z "$KATALON_API_KEY" ]; then
+            echo "::warning title=Katalon skipped::Add a KATALON_API_KEY repository secret to execute the suites (see README)."
+            echo "available=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "available=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Choose suite
+        id: suite
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.scope }}" = "regression" ]; then
+            echo "path=${{ matrix.regression }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "path=${{ matrix.smoke }}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Start virtual display
+        if: steps.licence.outputs.available == 'true'
+        run: |
+          Xvfb :99 -screen 0 1920x1080x24 > /dev/null 2>&1 &
+          echo "DISPLAY=:99" >> "$GITHUB_ENV"
+
+      - name: Run ${{ steps.suite.outputs.path }}
+        if: steps.licence.outputs.available == 'true'
+        uses: katalon-studio/katalon-studio-github-action@v5.0
+        with:
+          version: ${{ env.KATALON_VERSION }}
+          projectPath: ${{ github.workspace }}/${{ matrix.project }}
+          args: >-
+            -retry=1
+            -retryStrategy=failedExecutions
+            -testSuitePath="${{ steps.suite.outputs.path }}"
+            -browserType="${{ matrix.browser }}"
+            -executionProfile="default"
+            -reportFolder="${{ github.workspace }}/katalon-reports/${{ matrix.slug }}"
+            -apiKey=${{ secrets.KATALON_API_KEY }}
+            --config -webui.autoUpdateDrivers=true
+
+      - name: Publish test results
+        if: always() && steps.licence.outputs.available == 'true'
+        uses: mikepenz/action-junit-report@v6
+        with:
+          report_paths: katalon-reports/${{ matrix.slug }}/**/JUnit_Report.xml
+          check_name: Katalon · ${{ matrix.name }}
+          include_passed: true
+          detailed_summary: true
+          require_tests: true
+
+      - name: Upload Katalon report
+        if: always() && steps.licence.outputs.available == 'true'
+        uses: actions/upload-artifact@v7
+        with:
+          name: katalon-report-${{ matrix.slug }}
+          path: katalon-reports/${{ matrix.slug }}
+          if-no-files-found: warn
+          retention-days: 14
+
+  # ---------------------------------------------------------------------------
+  # Android: emulator + Appium 3 + Katalon Runtime Engine (reusable workflow).
+  # ---------------------------------------------------------------------------
+  mobile:
+    name: Mobile · Calculator
+    needs: static-checks
+    uses: ./.github/workflows/katalon-mobile.yml
+    secrets: inherit
+    with:
+      name: Mobile · Calculator
+      slug: mobile-calculator
+      project: Mobile Test/Calculator/Calculator.prj
+      suite: Test Suites/POM/Mobile Regression
+      # Flip to false once the first emulator run is green to make Calculator failures block the build
+      experimental: true
+
+  # Store apps from 2022 depend on live back-ends: nightly / manual only, never blocking.
+  mobile-experimental:
+    name: Mobile · ${{ matrix.name }} (experimental)
+    needs: static-checks
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - name: Shop Samsung
+            slug: mobile-samsung
+            project: Mobile Test/samsung/samsung.prj
+          - name: Happy Day Shopping
+            slug: mobile-happy-day
+            project: Mobile Test/Section 11/Section 11.prj
+    uses: ./.github/workflows/katalon-mobile.yml
+    secrets: inherit
+    with:
+      name: ${{ matrix.name }}
+      slug: ${{ matrix.slug }}
+      project: ${{ matrix.project }}
+      suite: Test Suites/POM/Mobile Regression
+      experimental: true

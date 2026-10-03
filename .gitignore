@@ -1,0 +1,22 @@
+# --- Katalon build output (each project's own .gitignore covers the same folders) ---
+**/bin/
+**/Libs/
+**/Reports/
+**/.gradle/
+**/build/
+**/.cache/
+**/.classpath
+**/.project
+
+# --- Local / CI tooling output ---
+katalon-reports/
+*.log
+
+# --- Private execution profiles: keep real credentials out of git ---
+# Create e.g. "<project>/Profiles/local.glbl" and run with -executionProfile="local"
+**/Profiles/local*.glbl
+**/Profiles/*.secret.glbl
+
+# --- Local fixtures with personal data (commit only *.example.json templates) ---
+**/Include/resources/fixtures/*.json
+!**/Include/resources/fixtures/*.example.json

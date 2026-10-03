@@ -1,0 +1,5 @@
+# {{PASSWORD}} is replaced at runtime with GlobalVariable.DemoPassword
+scenario,username,password
+Wrong password,John Doe,NotThePassword
+Unknown username,Jane Roe,{{PASSWORD}}
+Empty credentials,,

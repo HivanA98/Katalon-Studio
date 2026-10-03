@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Radio options are mutually exclusive and the disabled option cannot be used</description>
+   <name>Radio Button Selection</name>
+   <tag>regression</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fc073335-9102-4f30-b764-59be678e73e3</testCaseGuid>
+</TestCaseEntity>

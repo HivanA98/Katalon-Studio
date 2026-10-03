@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Standard user signs in and lands on the full product catalogue</description>
+   <name>Login With Valid User</name>
+   <tag>smoke</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d785a162-1c49-4871-8e37-e6ba3c35fda8</testCaseGuid>
+</TestCaseEntity>

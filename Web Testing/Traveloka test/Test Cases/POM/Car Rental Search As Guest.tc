@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Guest search: car list and provider list, stops before the booking form (no personal data)</description>
+   <name>Car Rental Search As Guest</name>
+   <tag>guest</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>453475c7-a075-4275-8aab-f0c187dcd826</testCaseGuid>
+   <variable>
+      <defaultValue>'Jakarta'</defaultValue>
+      <description></description>
+      <id>30711d58-fd29-4bfd-88af-e9677a37e68e</id>
+      <masked>false</masked>
+      <name>city</name>
+   </variable>
+</TestCaseEntity>

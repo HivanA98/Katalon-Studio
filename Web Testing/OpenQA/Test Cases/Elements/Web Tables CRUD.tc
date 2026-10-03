@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create, search, edit and delete rows in the Web Tables grid</description>
+   <name>Web Tables CRUD</name>
+   <tag>regression</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>42c009e7-153a-4c14-96c3-d51a9f9b31e9</testCaseGuid>
+</TestCaseEntity>

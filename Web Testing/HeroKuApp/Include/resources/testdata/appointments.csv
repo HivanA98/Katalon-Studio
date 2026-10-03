@@ -1,0 +1,12 @@
+# One row per booking. daysAhead is relative to today so the data never expires.
+# Set enabled=false to skip a row without deleting it.
+facility,readmission,program,daysAhead,comment,enabled
+TOKYO,true,MEDICARE,3,Tokyo - Medicare - readmission,true
+TOKYO,false,MEDICAID,5,Tokyo - Medicaid,true
+TOKYO,false,NONE,7,Tokyo - no program,true
+HONGKONG,true,MEDICARE,9,Hongkong - Medicare - readmission,true
+HONGKONG,false,MEDICAID,11,Hongkong - Medicaid,true
+HONGKONG,true,NONE,13,Hongkong - no program - readmission,true
+SEOUL,false,MEDICARE,15,Seoul - Medicare,true
+SEOUL,true,MEDICAID,17,Seoul - Medicaid - readmission,true
+SEOUL,false,NONE,19,"Seoul - no program, comment with a comma",true

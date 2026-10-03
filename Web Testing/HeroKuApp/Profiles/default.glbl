@@ -29,4 +29,14 @@
       <initValue>'22/10/2024'</initValue>
       <name>VisitDate</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Public demo password shown on the CURA login page</description>
+      <initValue>'ThisIsNotAPassword'</initValue>
+      <name>DemoPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Default explicit wait in seconds (shared core)</description>
+      <initValue>15</initValue>
+      <name>timeout</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

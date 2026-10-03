@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Resource list contract, colour format, ordering and list/detail consistency</description>
+   <name>List Resources Contract</name>
+   <tag>regression</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>14973d86-b683-482a-b4a8-a5e10b2de72e</testCaseGuid>
+</TestCaseEntity>

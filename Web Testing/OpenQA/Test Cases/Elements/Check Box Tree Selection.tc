@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Tree expansion, partial (mixed) state and full selection of the check box tree</description>
+   <name>Check Box Tree Selection</name>
+   <tag>regression</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ac2fe54f-83c1-4ae3-a946-cd50edda556e</testCaseGuid>
+</TestCaseEntity>

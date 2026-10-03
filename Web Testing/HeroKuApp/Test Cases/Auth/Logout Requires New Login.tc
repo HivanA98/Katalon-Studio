@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>After logout, booking requires signing in again</description>
+   <name>Logout Requires New Login</name>
+   <tag>regression</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b6b9b5a3-542f-4368-9afd-d9f289bfe3eb</testCaseGuid>
+</TestCaseEntity>

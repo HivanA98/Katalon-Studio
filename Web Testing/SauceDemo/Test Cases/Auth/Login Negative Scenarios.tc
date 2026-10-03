@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Data-driven: locked-out user, missing fields and wrong credentials show the right error</description>
+   <name>Login Negative Scenarios</name>
+   <tag>regression</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c4a0f362-ac5f-4e52-9bb3-1557df011e35</testCaseGuid>
+</TestCaseEntity>

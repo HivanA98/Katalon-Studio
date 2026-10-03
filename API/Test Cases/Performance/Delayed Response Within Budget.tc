@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Server-side delay is honoured and responses stay within the time budget</description>
+   <name>Delayed Response Within Budget</name>
+   <tag>regression</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3329247a-d3fa-4805-be38-e077f57f9f2e</testCaseGuid>
+   <variable>
+      <defaultValue>2</defaultValue>
+      <description></description>
+      <id>b114f5d5-3def-423d-8fff-fa5ee143bf6e</id>
+      <masked>false</masked>
+      <name>delaySeconds</name>
+   </variable>
+</TestCaseEntity>

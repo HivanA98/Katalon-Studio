@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Cart badge, button states and cart contents stay consistent while adding and removing items</description>
+   <name>Add And Remove Items</name>
+   <tag>regression</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ce74ca0f-9be8-4d24-a7e3-f25cb5b8362d</testCaseGuid>
+</TestCaseEntity>

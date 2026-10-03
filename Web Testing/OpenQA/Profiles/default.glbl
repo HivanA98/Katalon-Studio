@@ -29,4 +29,9 @@
       <initValue>'Indonesia'</initValue>
       <name>Country</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Default explicit wait in seconds (DemoQA is slow to load ads)</description>
+      <initValue>20</initValue>
+      <name>timeout</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

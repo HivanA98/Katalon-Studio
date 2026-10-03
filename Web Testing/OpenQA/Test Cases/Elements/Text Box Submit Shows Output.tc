@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Submitted text box values are echoed in the output panel</description>
+   <name>Text Box Submit Shows Output</name>
+   <tag>smoke</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>878812af-ac74-45b4-bfe2-f07d83c45a23</testCaseGuid>
+</TestCaseEntity>

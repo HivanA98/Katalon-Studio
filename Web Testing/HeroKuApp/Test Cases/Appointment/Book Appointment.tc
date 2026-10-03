@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Smoke booking with readmission and Medicare; confirmation matches input</description>
+   <name>Book Appointment</name>
+   <tag>smoke</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2ded4371-3f22-45db-8506-19f97c256b95</testCaseGuid>
+</TestCaseEntity>

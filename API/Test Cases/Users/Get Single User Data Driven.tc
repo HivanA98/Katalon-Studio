@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Data-driven: GET /api/users/{id} returns the expected record</description>
+   <name>Get Single User Data Driven</name>
+   <tag>regression</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1817a93a-5de8-4d86-a80d-55d8fc7e207e</testCaseGuid>
+</TestCaseEntity>

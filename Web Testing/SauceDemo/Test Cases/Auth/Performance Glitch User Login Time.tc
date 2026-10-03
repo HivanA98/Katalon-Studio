@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>performance_glitch_user still signs in within the configured time budget</description>
+   <name>Performance Glitch User Login Time</name>
+   <tag>regression</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3a672e98-a1ed-495c-b075-6df7b386f29c</testCaseGuid>
+   <variable>
+      <defaultValue>12</defaultValue>
+      <description></description>
+      <id>aa7905c6-eaf6-4630-9700-4fc3c8fd3402</id>
+      <masked>false</masked>
+      <name>maxLoginSeconds</name>
+   </variable>
+</TestCaseEntity>

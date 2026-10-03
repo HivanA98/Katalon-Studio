@@ -19,4 +19,19 @@
       <initValue>3</initValue>
       <name>id</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>ReqRes x-api-key header; override in CI with -g_apiKey=...</description>
+      <initValue>'reqres-free-v1'</initValue>
+      <name>apiKey</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Response time budget in milliseconds</description>
+      <initValue>8000</initValue>
+      <name>maxResponseMs</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Default wait in seconds (shared core)</description>
+      <initValue>15</initValue>
+      <name>timeout</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

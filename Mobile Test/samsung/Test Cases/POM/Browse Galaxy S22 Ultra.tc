@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Navigate from onboarding to the Galaxy S22 Ultra purchase page</description>
+   <name>Browse Galaxy S22 Ultra</name>
+   <tag>mobile</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6ab8ac8b-dc8b-403e-a4cf-84538bb1208c</testCaseGuid>
+</TestCaseEntity>

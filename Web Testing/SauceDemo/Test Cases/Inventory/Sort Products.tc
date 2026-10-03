@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Every sort option orders the catalogue correctly by name or price</description>
+   <name>Sort Products</name>
+   <tag>regression</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>56433107-26e9-4abf-be15-4cdd88de04e1</testCaseGuid>
+</TestCaseEntity>

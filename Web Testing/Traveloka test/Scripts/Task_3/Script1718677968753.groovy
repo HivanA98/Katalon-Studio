@@ -16,12 +16,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.qa.core.Fixture
 
 WebUI.callTestCase(findTestCase('Task3/Part 1'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Task3/Part 2'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Task3/Part 3'), [('Nama') : 'Ivan Armadi Hasugian', ('Nomor') : '085796089681'], FailureHandling.STOP_ON_FAILURE)
+// Personal data lives in the git-ignored fixture Include/resources/fixtures/traveloka.json
+Map contact = Fixture.load('traveloka').contact as Map
+
+WebUI.callTestCase(findTestCase('Task3/Part 3'), [('Nama') : contact.fullName, ('Nomor') : contact.phone, ('Email') : contact.email], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Task3/Part 4'), [:], FailureHandling.STOP_ON_FAILURE)
 

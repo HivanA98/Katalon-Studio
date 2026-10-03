@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Pagination metadata, unique ids across pages and user contract</description>
+   <name>List Users Pagination</name>
+   <tag>smoke</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>13a9b844-013f-44c9-90fe-5b92e95980aa</testCaseGuid>
+</TestCaseEntity>

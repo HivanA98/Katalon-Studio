@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Unknown users and resources return 404 with an empty body</description>
+   <name>Unknown User Returns 404</name>
+   <tag>regression</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>481f0bc7-2d3f-47d4-a0e4-881b09e53f34</testCaseGuid>
+</TestCaseEntity>

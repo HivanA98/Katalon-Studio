@@ -29,7 +29,7 @@ WebUI.setText(findTestObject('11-20/18_Mobile_Number'), Nomor)
 
 WebUI.click(findTestObject('11-20/19_Email'))
 
-WebUI.setText(findTestObject('11-20/19_Email'), 'hivanarmadi@gmail.com')
+WebUI.setText(findTestObject('11-20/19_Email'), Email)
 
 WebUI.click(findTestObject('11-20/20_Save_Contact'))
 

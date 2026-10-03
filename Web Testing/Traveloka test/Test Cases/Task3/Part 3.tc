@@ -17,18 +17,31 @@
       <value></value>
       <variableId>62df461d-aaf8-4216-96f2-3bb3053f7c1d</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>39ad4b8b-2dc9-4c90-ae8d-6f9be6187408</variableId>
+   </variableLinks>
    <variable>
-      <defaultValue>'Ivan Armadi Hasugian'</defaultValue>
+      <defaultValue>'Automation Tester'</defaultValue>
       <description></description>
       <id>d439e0a8-a003-4beb-99d8-4b2c4bd05d35</id>
       <masked>false</masked>
       <name>Nama</name>
    </variable>
    <variable>
-      <defaultValue>'085796089681'</defaultValue>
+      <defaultValue>'081234567890'</defaultValue>
       <description></description>
       <id>62df461d-aaf8-4216-96f2-3bb3053f7c1d</id>
       <masked>false</masked>
       <name>Nomor</name>
+   </variable>
+   <variable>
+      <defaultValue>'automation.tester@example.com'</defaultValue>
+      <description></description>
+      <id>39ad4b8b-2dc9-4c90-ae8d-6f9be6187408</id>
+      <masked>false</masked>
+      <name>Email</name>
    </variable>
 </TestCaseEntity>

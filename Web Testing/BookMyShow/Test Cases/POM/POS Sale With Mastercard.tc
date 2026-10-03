@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Box office POS: search an event, sell tickets and pay with the Mastercard test card</description>
+   <name>POS Sale With Mastercard</name>
+   <tag>e2e</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7b26d00b-319b-495a-8782-f44415e40b7a</testCaseGuid>
+   <variable>
+      <defaultValue>'[Automation Test] 20 Nov 2023 7:38 AM GA Bundle'</defaultValue>
+      <description></description>
+      <id>1ebfece4-721f-4ee5-8dac-55d0128539c8</id>
+      <masked>false</masked>
+      <name>eventName</name>
+   </variable>
+   <variable>
+      <defaultValue>3</defaultValue>
+      <description></description>
+      <id>63983da1-0280-48b1-b240-f4dd2a8841a3</id>
+      <masked>false</masked>
+      <name>quantity</name>
+   </variable>
+</TestCaseEntity>

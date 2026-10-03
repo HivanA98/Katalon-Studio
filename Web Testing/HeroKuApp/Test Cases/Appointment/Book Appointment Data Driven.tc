@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Every facility/program/readmission combination from appointments.csv</description>
+   <name>Book Appointment Data Driven</name>
+   <tag>regression</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fbb4c301-ff57-4e43-9557-4a97464145d9</testCaseGuid>
+</TestCaseEntity>

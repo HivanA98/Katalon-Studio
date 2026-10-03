@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Data-driven: each missing checkout field produces its own validation error</description>
+   <name>Checkout Form Validation</name>
+   <tag>regression</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c03823b9-0e0e-4d5f-a19b-a5e0c06be2b8</testCaseGuid>
+</TestCaseEntity>

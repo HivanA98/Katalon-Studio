@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Item total, tax and grand total are calculated correctly for several products</description>
+   <name>Checkout Multiple Items Price Calculation</name>
+   <tag>regression</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2dffa1c8-d66b-4d28-bd4b-54909a4ccd69</testCaseGuid>
+</TestCaseEntity>

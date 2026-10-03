@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Car rental search to payment selection; stops before paying unless submitPayment=true</description>
+   <name>Car Rental Booking Without Driver</name>
+   <tag>e2e</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>783e49e0-c811-429f-b233-e47daae2c513</testCaseGuid>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>12f2a8b8-e9c8-4084-babd-a6370ad4ac89</id>
+      <masked>false</masked>
+      <name>submitPayment</name>
+   </variable>
+</TestCaseEntity>

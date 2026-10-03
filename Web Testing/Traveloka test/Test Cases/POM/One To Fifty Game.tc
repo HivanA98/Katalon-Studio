@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Clicks 1..50 in order and validates the result page</description>
+   <name>One To Fifty Game</name>
+   <tag>smoke</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e3533ab6-171c-4de6-a212-c1248a5d3276</testCaseGuid>
+   <variable>
+      <defaultValue>120</defaultValue>
+      <description></description>
+      <id>5a9d0d7d-5060-4272-9e01-7aa475bcffda</id>
+      <masked>false</masked>
+      <name>maxSeconds</name>
+   </variable>
+</TestCaseEntity>

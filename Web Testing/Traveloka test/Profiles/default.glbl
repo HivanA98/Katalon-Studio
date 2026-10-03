@@ -4,4 +4,19 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Traveloka home page</description>
+      <initValue>'https://www.traveloka.com/en-id'</initValue>
+      <name>URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>1 to 50 game</description>
+      <initValue>'https://zzzscore.com/1to50/en/'</initValue>
+      <name>OneToFiftyUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Default explicit wait in seconds</description>
+      <initValue>30</initValue>
+      <name>timeout</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

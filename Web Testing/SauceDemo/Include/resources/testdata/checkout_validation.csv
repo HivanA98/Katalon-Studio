@@ -1,0 +1,5 @@
+scenario,firstName,lastName,postalCode,expectedError
+Missing first name,,Tester,20220,Error: First Name is required
+Missing last name,Jane,,20220,Error: Last Name is required
+Missing postal code,Jane,Tester,,Error: Postal Code is required
+All fields empty,,,,Error: First Name is required

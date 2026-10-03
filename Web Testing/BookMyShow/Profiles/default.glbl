@@ -64,4 +64,39 @@
       <initValue>'5454 5454 5454 5454'</initValue>
       <name>MastercardNumber</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>POS password encrypted with Katalon (Help &gt; Encrypt Text)</description>
+      <initValue>'Yts8t0BzqVvx0ygu5q24WQ=='</initValue>
+      <name>PosPasswordEncrypted</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Public storefront (UAT)</description>
+      <initValue>'https://sg.uat.bigtix.dev/'</initValue>
+      <name>StorefrontUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Box office POS (UAT)</description>
+      <initValue>'https://pos2-sg.uat.bigtix.dev/'</initValue>
+      <name>PosUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Buyer address</description>
+      <initValue>'Jendral Sudirman'</initValue>
+      <name>Address</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Buyer country search text</description>
+      <initValue>'singapore'</initValue>
+      <name>Country</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Buyer postal code</description>
+      <initValue>'801111'</initValue>
+      <name>PostalCode</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Default explicit wait in seconds</description>
+      <initValue>30</initValue>
+      <name>timeout</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

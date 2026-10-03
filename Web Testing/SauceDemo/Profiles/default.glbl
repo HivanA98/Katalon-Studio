@@ -64,4 +64,24 @@
       <initValue>'https://www.saucedemo.com/'</initValue>
       <name>URL</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Shared password of the public Swag Labs demo accounts</description>
+      <initValue>'secret_sauce'</initValue>
+      <name>UserPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Checkout postal code</description>
+      <initValue>'20220'</initValue>
+      <name>PostalCode</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Expected sales tax rate applied at checkout</description>
+      <initValue>'0.08'</initValue>
+      <name>TaxRate</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Default explicit wait in seconds (shared core)</description>
+      <initValue>15</initValue>
+      <name>timeout</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

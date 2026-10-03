@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Name and price on each product detail page match the inventory card</description>
+   <name>Product Details Match Listing</name>
+   <tag>regression</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1a3ba05f-bb9d-4407-ba9e-39553544c8ed</testCaseGuid>
+</TestCaseEntity>

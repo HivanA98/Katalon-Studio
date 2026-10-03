@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Happy path: buy one product and verify the order total</description>
+   <name>Checkout Single Item</name>
+   <tag>smoke</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b7676e58-6a15-46f7-b9be-368896c64e6d</testCaseGuid>
+   <variable>
+      <defaultValue>'Sauce Labs Backpack'</defaultValue>
+      <description></description>
+      <id>056cc45c-1a79-467b-a287-5af36211eb54</id>
+      <masked>false</masked>
+      <name>product</name>
+   </variable>
+   <variable>
+      <defaultValue>'29.99'</defaultValue>
+      <description></description>
+      <id>85104dc3-edb5-420f-b21c-232d454ad5c8</id>
+      <masked>false</masked>
+      <name>expectedPrice</name>
+   </variable>
+</TestCaseEntity>

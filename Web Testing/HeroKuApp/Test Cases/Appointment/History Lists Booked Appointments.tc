@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Bookings made in the session appear on the History page</description>
+   <name>History Lists Booked Appointments</name>
+   <tag>regression</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d45a9f74-367b-4797-adaf-fbcadad428df</testCaseGuid>
+</TestCaseEntity>

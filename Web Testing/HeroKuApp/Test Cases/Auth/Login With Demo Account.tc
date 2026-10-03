@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Demo user signs in via Make Appointment and sees the booking form</description>
+   <name>Login With Demo Account</name>
+   <tag>smoke</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>039dfe75-4287-4eb0-95b7-2ba235b62e41</testCaseGuid>
+</TestCaseEntity>

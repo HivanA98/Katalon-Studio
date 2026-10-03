@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>The form cannot be submitted without a visit date</description>
+   <name>Visit Date Is Required</name>
+   <tag>regression</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f6443094-4d88-4c4b-bd4d-833632e9b62d</testCaseGuid>
+</TestCaseEntity>

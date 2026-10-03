@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add a flash-sale product to the bag and reach checkout</description>
+   <name>Flash Sale Checkout</name>
+   <tag>mobile</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5fcf3080-883d-4180-a1d4-664d39ba4ef1</testCaseGuid>
+   <variable>
+      <defaultValue>5</defaultValue>
+      <description></description>
+      <id>d2bb524a-7438-4d2e-923a-341565ee38e7</id>
+      <masked>false</masked>
+      <name>quantity</name>
+   </variable>
+</TestCaseEntity>

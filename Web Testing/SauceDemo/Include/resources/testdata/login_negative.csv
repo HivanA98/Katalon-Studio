@@ -1,0 +1,7 @@
+# {{PASSWORD}} is replaced at runtime with GlobalVariable.UserPassword
+scenario,username,password,expectedError
+Locked out user,locked_out_user,{{PASSWORD}},"Epic sadface: Sorry, this user has been locked out."
+Missing username,,{{PASSWORD}},Epic sadface: Username is required
+Missing password,standard_user,,Epic sadface: Password is required
+Wrong password,standard_user,not_the_password,Epic sadface: Username and password do not match any user in this service
+Unknown user,ghost_user,{{PASSWORD}},Epic sadface: Username and password do not match any user in this service

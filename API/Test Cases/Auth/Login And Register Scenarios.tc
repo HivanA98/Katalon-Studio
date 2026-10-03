@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Data-driven matrix of successful and failing login/register calls</description>
+   <name>Login And Register Scenarios</name>
+   <tag>regression</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>969b1f4a-df00-415b-acbd-17d5d67747f8</testCaseGuid>
+</TestCaseEntity>

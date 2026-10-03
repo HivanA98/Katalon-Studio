@@ -1,0 +1,8 @@
+# Sample accounts documented by ReqRes. expectedError is optional (blank = any non-empty error).
+scenario,endpoint,email,password,expectedStatus,expectedError
+Valid credentials,login,eve.holt@reqres.in,cityslicka,200,
+Missing password,login,peter@klaven,,400,Missing password
+Missing e-mail,login,,cityslicka,400,
+Defined user registers,register,eve.holt@reqres.in,pistol,200,
+Missing password,register,sydney@fife,,400,Missing password
+Undefined user cannot register,register,nobody@example.com,secret,400,

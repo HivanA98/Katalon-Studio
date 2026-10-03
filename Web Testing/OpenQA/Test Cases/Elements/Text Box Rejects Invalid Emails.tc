@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Data-driven: malformed e-mail addresses are flagged and not submitted</description>
+   <name>Text Box Rejects Invalid Emails</name>
+   <tag>regression</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6efba556-0f32-477f-989e-e2c932309c26</testCaseGuid>
+</TestCaseEntity>

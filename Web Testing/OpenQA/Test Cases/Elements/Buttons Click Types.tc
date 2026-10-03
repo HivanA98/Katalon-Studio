@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Double, right and dynamic clicks each show their own confirmation message</description>
+   <name>Buttons Click Types</name>
+   <tag>smoke</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c8436776-cec1-4816-886a-5e91486c38e7</testCaseGuid>
+</TestCaseEntity>

@@ -1,6 +1,7 @@
 plugins {
   id 'java'
-  id "com.katalon.gradle-plugin" version "0.1.2"
+  // https://plugins.gradle.org/plugin/com.katalon.gradle-plugin
+  id 'com.katalon.gradle-plugin' version '0.2.0'
 }
 
 repositories {
@@ -8,13 +9,11 @@ repositories {
 }
 
 dependencies {
-  // sample dependencies
-  // rest-assured
-  // compile 'io.rest-assured:rest-assured:3.2.0'
-  // JsonPath
-  // compile 'io.rest-assured:json-path:3.2.0'
-  // XmlPath
-  // compile 'io.rest-assured:json-path:3.2.0'
-  // JSON Schema Validation
-  // compile 'io.rest-assured:json-schema-validator:3.2.0'
+  // Optional libraries for custom keywords. After enabling one, run
+  //   gradle katalonCopyDependencies
+  // to copy the jars into Drivers/ where Katalon Studio and Runtime Engine pick them up.
+  //
+  // implementation 'net.datafaker:datafaker:2.7.0'                // realistic fake test data
+  // implementation 'io.rest-assured:rest-assured:6.0.1'           // fluent HTTP client and assertions
+  // implementation 'io.rest-assured:json-schema-validator:6.0.1'  // JSON Schema validation
 }

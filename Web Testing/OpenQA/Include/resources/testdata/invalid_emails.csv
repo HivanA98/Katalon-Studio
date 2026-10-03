@@ -1,0 +1,6 @@
+email,reason
+plainaddress,missing @ and domain
+user@,missing domain
+@example.com,missing local part
+user name@example.com,contains a space
+user@@example.com,double @

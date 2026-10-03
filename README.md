@@ -30,11 +30,11 @@
 | [`Web Testing/HeroKuApp`](Web%20Testing/HeroKuApp) | Web | [CURA Healthcare](https://katalon-demo-cura.herokuapp.com) | ✅ | 13 copy-pasted scripts → **1 data-driven test**, history check, HTML5 validation |
 | [`Web Testing/OpenQA`](Web%20Testing/OpenQA) | Web | [DemoQA](https://demoqa.com) | ✅ | Tri-state tree, mouse actions, **Web Tables CRUD**, ad removal |
 | [`API`](API) | API | [ReqRes](https://reqres.in) | ✅ | Service objects, JSON contract checks, pagination walk, response-time budget |
-| [`Web Testing/Traveloka test`](Web%20Testing/Traveloka%20test) | Web | Traveloka · zzzscore 1-to-50 | ✅ *(1-to-50 only)* | Car-rental flow stops before payment by default |
-| [`Web Testing/BookMyShow`](Web%20Testing/BookMyShow) | Web | BigTix UAT (storefront + POS) | 🔒 | End-to-end purchase with test cards |
-| [`Mobile Test/*`](Mobile%20Test) | Android | Calculator · Shop Samsung · Happy Day | 📱 | Screen objects, data-driven arithmetic incl. operator precedence |
+| [`Web Testing/Traveloka test`](Web%20Testing/Traveloka%20test) | Web | zzzscore 1-to-50 · Traveloka | ✅ · 🧪 | 1-to-50 game; car-rental search **as a guest** (no login, no personal data) |
+| [`Web Testing/BookMyShow`](Web%20Testing/BookMyShow) | Web | BigTix practice UAT (storefront + POS) | 🧪 | End-to-end purchase with gateway test cards |
+| [`Mobile Test/*`](Mobile%20Test) | Android | Calculator · Shop Samsung · Happy Day | 📱 | Android emulator in CI; data-driven arithmetic incl. operator precedence |
 
-> ✅ runs on every push · 🔒 needs private environment/credentials · 📱 needs an Android device or emulator + Appium 3
+> ✅ runs on every push and can fail the build · 🧪 runs in CI as *experimental* (third-party site or practice data, never fails the build) · 📱 runs on an Android emulator in CI (Calculator on every push, store apps nightly)
 
 ---
 
@@ -199,7 +199,7 @@ soft.assertAll()
 | `com.qa.core.CsvData` | RFC-4180 CSV reader for data-driven tests (comments and `enabled` column supported) |
 | `com.qa.core.Wait` | Polling `until {}` and `retry(n) {}` |
 | `com.qa.core.Config` | Null-safe profile access with defaults (`Config.text('URL', '…')`) |
-| `com.qa.core.Fixture` | Loads git-ignored JSON fixtures with a committed `*.example.json` fallback |
+| `com.qa.core.Fixture` | Optional: git-ignored JSON fixtures with a committed `*.example.json` fallback |
 | `com.qa.core.mobile.*` | `BaseScreen`, `MobileApp`, `MobileLocator` for Android |
 | `Test Listeners/*TestListener` | Screenshot on failure, always close the browser/app, timing log |
 
@@ -237,16 +237,36 @@ flowchart LR
     M([manual dispatch<br/>smoke / regression]) --> S
     S --> K{KATALON_API_KEY<br/>secret set?}
     K -- no --> W[⚠️ warning, suites skipped]
-    K -- yes --> R["Matrix (parallel)<br/>API · SauceDemo · CURA · DemoQA · 1-to-50"]
-    R --> J[JUnit check run]
-    R --> U[HTML/JUnit report artifacts]
+    K -- yes --> R["Web/API matrix (parallel)<br/>API · SauceDemo · CURA · DemoQA · 1-to-50"]
+    K -- yes --> X["Experimental (non-blocking)<br/>Traveloka guest search · BookMyShow"]
+    K -- yes --> A["Android emulator<br/>Appium 3 + KRE · Calculator"]
+    N -. nightly / manual .-> E["Experimental mobile<br/>Shop Samsung · Happy Day"]
+    R --> J[JUnit check runs]
+    X --> J
+    A --> J
+    E --> J
+    J --> U[HTML/JUnit report artifacts]
 ```
 
 | Trigger | Suites |
 |---|---|
-| Push to `main`, pull request | **Smoke** of every CI project |
-| Nightly schedule (Mon–Fri) | **Regression** of every CI project |
-| *Actions ▸ Katalon CI ▸ Run workflow* | Choose `smoke` or `regression` |
+| Push to `main`, pull request | **Smoke** of every web/API project, Traveloka guest search, BookMyShow, Android Calculator |
+| Nightly schedule (Mon–Fri) | **Regression** of everything above **+** Shop Samsung and Happy Day on the emulator |
+| *Actions ▸ Katalon CI ▸ Run workflow* | Choose `smoke` or `regression` (mobile store apps included) |
+
+<details>
+<summary><b>🧪 What "experimental" means</b></summary>
+
+Some suites depend on things this repository does not control: Traveloka's bot protection, the BigTix practice UAT data (events from 2023), and 2022 store apps that call live back-ends. They still run and publish their reports, but a failure is shown as a warning instead of failing the build (`continue-on-error`). The Android Calculator job is also non-blocking until its first green run; then set `experimental: false` for it in [`katalon-ci.yml`](.github/workflows/katalon-ci.yml).
+
+</details>
+
+<details>
+<summary><b>📱 How the Android job works</b></summary>
+
+[`katalon-mobile.yml`](.github/workflows/katalon-mobile.yml) is a reusable workflow that enables KVM, installs **Appium 3 + UiAutomator2**, downloads and caches **Katalon Runtime Engine** for Linux, boots an **Android 13 (API 33) x86_64** emulator with [android-emulator-runner](https://github.com/ReactiveCircus/android-emulator-runner) and runs [`tools/ci/run-katalon-mobile.sh`](tools/ci/run-katalon-mobile.sh) (`-browserType="Android" -deviceId=<emulator>`).
+
+</details>
 
 <details open>
 <summary><b>⚙️ One-time setup</b></summary>
@@ -337,12 +357,12 @@ Without the secret the static checks still run and the Katalon jobs finish with 
 </details>
 
 <details>
-<summary><b>🔒 Private & mobile projects</b></summary>
+<summary><b>🎟 Practice, guest & mobile projects</b></summary>
 
 | Project | POM test cases | Notes |
 |---|---|---|
 | BookMyShow | `POM/Storefront Purchase With Visa`, `POM/POS Sale With Mastercard` | Uses payment-gateway **test** cards from the profile |
-| Traveloka test | `POM/Car Rental Booking Without Driver`, `POM/One To Fifty Game` | Booking data from the git-ignored `fixtures/traveloka.json`; `submitPayment=false` by default — no real booking is created |
+| Traveloka test | `POM/Car Rental Search As Guest`, `POM/One To Fifty Game` | Guest search stops at the provider list (no login, no personal data); 1-to-50 validates the result page |
 | Mobile · Calculator | `POM/Arithmetic Expressions` | *CSV:* `5+4*6 = 29`, `6*5+4 = 34` … |
 | Mobile · samsung | `POM/Browse Galaxy S22 Ultra` | Onboarding → product → purchase page |
 | Mobile · Section 11 | `POM/Flash Sale Checkout` | Bag → checkout support notice |
@@ -370,11 +390,7 @@ Environment data lives in each project's **execution profile** (`Profiles/defaul
 2. Fill in the real values there and run with `-executionProfile="local"`.
 3. In CI pass secrets as overrides: `-g_URL=${{ secrets.STAGING_URL }}`.
 4. For values that must stay in a shared profile, use **Help ▸ Encrypt Text** and `WebUI.setEncryptedText` (see `PosLoginPage`).
-5. Personal test data (names, phone numbers, e-mails) goes into **JSON fixtures**: `Include/resources/fixtures/<name>.json` is git-ignored, and only the `<name>.example.json` template with dummy values is committed. `Fixture.load('<name>')` picks the real file when it exists and falls back to the template otherwise.
-
-```bash
-cp "Web Testing/Traveloka test/Include/resources/fixtures/traveloka.example.json" "Web Testing/Traveloka test/Include/resources/fixtures/traveloka.json"
-```
+5. Prefer **guest flows** that need no personal data at all (see *Car Rental Search As Guest*). If a test truly needs personal data, put it in a **JSON fixture**: `Include/resources/fixtures/<name>.json` is git-ignored, only a `<name>.example.json` template with dummy values is committed, and `Fixture.load('<name>')` picks the real file when it exists. Such tests cannot run in CI unless the data is injected from secrets.
 
 </details>
 
@@ -397,7 +413,7 @@ cp "Web Testing/Traveloka test/Include/resources/fixtures/traveloka.example.json
 ├── API/                               # ReqRes API project
 ├── Web Testing/
 │   ├── SauceDemo/  HeroKuApp/  OpenQA/  Traveloka test/
-│   └── BookMyShow/                                 # private UAT environment
+│   └── BookMyShow/                                 # practice UAT environment
 └── Mobile Test/   Calculator/  samsung/  Section 11/
     each project:
     ├── Keywords/com/<app>/pages|models|…  # page objects & models
@@ -421,7 +437,7 @@ The original record-and-playback test cases, suites and Object Repository entrie
 | DemoQA `Elements/*` (no assertions, swapped click names) | `Elements/*` POM tests with assertions |
 | API `GetAllUser`, `GetUser`, `PostSingleUser`, `PutUpdate` | `Users/*`, `Auth/*`, `Resources/*`, `Performance/*` |
 | BookMyShow `Task1/*`, `Task2/*` | `POM/*` |
-| Traveloka `Task3/*`, `Task_3`, `Task_4` | `POM/*` |
+| Traveloka `Task_4` | `POM/One To Fifty Game` |
 | Mobile `Test 1`, `S22`, `FlashSale` | `POM/*` |
 
 Once you are happy with the new tests, the legacy entries can be deleted from Katalon Studio (right-click ▸ Delete) or with `git rm`.

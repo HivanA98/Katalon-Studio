@@ -6,19 +6,18 @@ import com.qa.core.mobile.MobileApp
 import com.qa.core.mobile.MobileLocator
 
 /**
- * Google Calculator. Digits that were recorded in the Object Repository are reused; every other
- * key is located by its stable resource-id, so any expression can be entered.
+ * Android calculator (AOSP and Google builds share the same view ids).
+ * Keys are located by resource-id suffix so the screen works regardless of the application id.
  */
 class CalculatorScreen extends BaseScreen {
 
-	private static final String PACKAGE = 'com.google.android.calculator:id'
+	private static final Map<String, String> KEYS = [
+		'+': 'op_add', '-': 'op_sub', '*': 'op_mul', '×': 'op_mul', '/': 'op_div', '÷': 'op_div'
+	]
 
-	private final TestObject equalsKey = MobileLocator.repo('Test 1/hasil')
-	private final TestObject plusKey = MobileLocator.repo('Test 1/tambah')
-	private final TestObject timesKey = MobileLocator.repo('Test 1/kali')
-	private final TestObject result = MobileLocator.resourceId("${PACKAGE}/result_final")
-
-	private static final Map<String, String> OPERATORS = ['+': 'op_add', '-': 'op_sub', '×': 'op_mul', '*': 'op_mul', '÷': 'op_div', '/': 'op_div']
+	private final TestObject equalsKey = MobileLocator.idSuffix('eq')
+	/** Newer builds show the result in 'result_final', older ones in 'result'. */
+	private final List<TestObject> resultViews = [MobileLocator.idSuffix('result_final'), MobileLocator.idSuffix('result')]
 
 	@Override
 	protected TestObject screenMarker() {
@@ -36,13 +35,9 @@ class CalculatorScreen extends BaseScreen {
 	CalculatorScreen enter(String expression) {
 		expression.replaceAll(/\s+/, '').each { String key ->
 			if (key ==~ /\d/) {
-				tap(MobileLocator.resourceId("${PACKAGE}/digit_${key}"))
-			} else if (key == '+') {
-				tap(plusKey)
-			} else if (key in ['*', '×']) {
-				tap(timesKey)
-			} else if (OPERATORS.containsKey(key)) {
-				tap(MobileLocator.resourceId("${PACKAGE}/${OPERATORS[key]}"))
+				tap(MobileLocator.idSuffix("digit_${key}"))
+			} else if (KEYS.containsKey(key)) {
+				tap(MobileLocator.idSuffix(KEYS[key]))
 			} else {
 				throw new IllegalArgumentException("Unsupported key '${key}'")
 			}
@@ -52,6 +47,10 @@ class CalculatorScreen extends BaseScreen {
 
 	String evaluate() {
 		tap(equalsKey)
+		TestObject result = resultViews.find { isPresent(it, 3) }
+		if (result == null) {
+			throw new IllegalStateException('Result view not found (tried result_final and result)')
+		}
 		return textOf(result)
 	}
 }
